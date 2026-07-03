@@ -1,0 +1,157 @@
+{
+  "name": "Celtmen Apps",
+  "subtitle": "All my apps in one place.",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoCeltmen.PNG?raw=true",
+  "headerURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/banniereNighRush.PNG?raw=true",
+  "website": "https://celtmen-cpu.github.io/Night-Rush/",
+  "tintColor": "#7B68EE",
+  "featuredApps": [
+    "com.celtmen.nightrush"
+  ],
+  "apps": [
+    {
+      "name": "Night Rush",
+      "bundleIdentifier": "com.celtmen.nightrush",
+      "developerName": "Celtmen",
+      "subtitle": "An awesome game.",
+      "localizedDescription": "This is an awesome app only available on AltStore and SideStore.",
+      "iconURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush.PNG?raw=true",
+      "tintColor": "#5CA399",
+      "screenshots": [
+        "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/ScreenShotSalon.png?raw=true",
+        "https://raw.githubusercontent.com/celtmen-cpu/Night-Rush/refs/heads/main/assets/IMG_0711.jpeg",
+        "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/ScreenShotClassement.png?raw=true"
+      ],
+      "versions": [
+        {
+          "version": "0.31",
+          "date": "2026-06-17T22:00:00+02:00",
+          "size": 110200000,
+          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.31/NightRush.ipa",
+          "localizedDescription": "Beginning of the championship.",
+          "minOSVersion": "12.0"
+        },
+        {
+          "version": "0.30",
+          "date": "2026-06-14T13:00:00+02:00",
+          "size": 110200000,
+          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.30/NightRush.ipa",
+          "localizedDescription": "Major optimisation.",
+          "minOSVersion": "12.0"
+        },
+        {
+          "version": "0.29",
+          "date": "2026-06-12T16:30:00+02:00",
+          "size": 110200000,
+          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.29/NightRush.ipa",
+          "localizedDescription": "Minor bug fix and feature added.",
+          "minOSVersion": "12.0"
+        },
+        {
+          "version": "0.28",
+          "date": "2026-06-12T16:30:00+02:00",
+          "size": 110200000,
+          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.28/NightRush.ipa",
+          "localizedDescription": "Bug fix and feature added.",
+          "minOSVersion": "12.0"
+        },
+        {
+          "version": "0.27.2",
+          "date": "2026-06-12T15:45:00+02:00",
+          "size": 110200000,
+          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.27.2/NightRush.ipa",
+          "localizedDescription": "Bug fix.",
+          "minOSVersion": "12.0"
+        },
+        {
+          "version": "0.27.1",
+          "date": "2026-06-12T15:45:00+02:00",
+          "size": 110200000,
+          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.27.1/NightRush.ipa",
+          "localizedDescription": "Bug fix.",
+          "minOSVersion": "12.0"
+        },
+        {
+          "version": "0.27",
+          "date": "2026-06-11T20:10:00+02:00",
+          "size": 110200000,
+          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.27/NightRush.ipa",
+          "localizedDescription": "New features and bug fixes.",
+          "minOSVersion": "12.0"
+        },
+        {
+          "version": "0.26",
+          "date": "2026-06-05T09:00:00-08:00",
+          "size": 62200000,
+          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.26/Night.Rush.ipa",
+          "localizedDescription": "New features and bug fixes.",
+          "minOSVersion": "12.0"
+        },
+        {
+          "version": "0.25",
+          "date": "2026-06-03T07:00:00-08:00",
+          "size": 58400000,
+          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.25/Night.Rush.ipa",
+          "localizedDescription": "Initial release."
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": [
+    {
+      "title": "App Update and beginning of the championship",
+      "identifier": "app_update",
+      "caption": "An update is available for Night Rush right now.",
+      "date": "2026-06-11T20:10:00+02:00",
+      "tintColor": "#3660A2",
+      "imageURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush2.PNG?raw=true",
+      "notify": true,
+      "appID": "com.celtmen.nightrush"
+    },
+    {
+      "title": "App Update",
+      "identifier": "app_update",
+      "caption": "An update is available for Night Rush right now.",
+      "date": "2026-06-11T20:10:00+02:00",
+      "tintColor": "#3660A2",
+      "imageURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush2.PNG?raw=true",
+      "notify": true,
+      "appID": "com.celtmen.nightrush"
+    },
+    {
+      "title": "App Update 🥳",
+      "identifier": "app_update",
+      "caption": "An update is available for Night Rush right now.",
+      "date": "2026-06-11T20:10:00+02:00",
+      "tintColor": "#3660A2",
+      "imageURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush2.PNG?raw=true",
+      "notify": true,
+      "appID": "com.celtmen.nightrush"
+    },
+    {
+      "title": "App Update !!!",
+      "identifier": "app_update",
+      "caption": "An update is available for Night Rush right now.",
+      "date": "2026-06-11T20:10:00+02:00",
+      "tintColor": "#3660A2",
+      "imageURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush2.PNG?raw=true",
+      "notify": true,
+      "appID": "com.celtmen.nightrush"
+    },
+    {
+      "title": "App Update Available",
+      "identifier": "app_update_2",
+      "caption": "An update is available for Night Rush.",
+      "date": "2026-06-06T10:00:00-07:00",
+      "tintColor": "#3660A2",
+      "imageURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush2.PNG?raw=true",
+      "notify": true,
+      "appID": "com.celtmen.nightrush"
+    }
+  ]
+}
