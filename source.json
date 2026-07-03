@@ -7,7 +7,8 @@
   "website": "https://celtmen-cpu.github.io/Night-Rush/",
   "tintColor": "#7B68EE",
   "featuredApps": [
-    "com.celtmen.nightrush"
+    "com.celtmen.nightrush",
+    "com.celtmen.shimo"
   ],
   "apps": [
     {
@@ -31,69 +32,6 @@
           "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.31/NightRush.ipa",
           "localizedDescription": "Beginning of the championship.",
           "minOSVersion": "12.0"
-        },
-        {
-          "version": "0.30",
-          "date": "2026-06-14T13:00:00+02:00",
-          "size": 110200000,
-          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.30/NightRush.ipa",
-          "localizedDescription": "Major optimisation.",
-          "minOSVersion": "12.0"
-        },
-        {
-          "version": "0.29",
-          "date": "2026-06-12T16:30:00+02:00",
-          "size": 110200000,
-          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.29/NightRush.ipa",
-          "localizedDescription": "Minor bug fix and feature added.",
-          "minOSVersion": "12.0"
-        },
-        {
-          "version": "0.28",
-          "date": "2026-06-12T16:30:00+02:00",
-          "size": 110200000,
-          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.28/NightRush.ipa",
-          "localizedDescription": "Bug fix and feature added.",
-          "minOSVersion": "12.0"
-        },
-        {
-          "version": "0.27.2",
-          "date": "2026-06-12T15:45:00+02:00",
-          "size": 110200000,
-          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.27.2/NightRush.ipa",
-          "localizedDescription": "Bug fix.",
-          "minOSVersion": "12.0"
-        },
-        {
-          "version": "0.27.1",
-          "date": "2026-06-12T15:45:00+02:00",
-          "size": 110200000,
-          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.27.1/NightRush.ipa",
-          "localizedDescription": "Bug fix.",
-          "minOSVersion": "12.0"
-        },
-        {
-          "version": "0.27",
-          "date": "2026-06-11T20:10:00+02:00",
-          "size": 110200000,
-          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.27/NightRush.ipa",
-          "localizedDescription": "New features and bug fixes.",
-          "minOSVersion": "12.0"
-        },
-        {
-          "version": "0.26",
-          "date": "2026-06-05T09:00:00-08:00",
-          "size": 62200000,
-          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.26/Night.Rush.ipa",
-          "localizedDescription": "New features and bug fixes.",
-          "minOSVersion": "12.0"
-        },
-        {
-          "version": "0.25",
-          "date": "2026-06-03T07:00:00-08:00",
-          "size": 58400000,
-          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.25/Night.Rush.ipa",
-          "localizedDescription": "Initial release."
         }
       ],
       "appPermissions": {
