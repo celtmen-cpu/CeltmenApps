@@ -19,9 +19,9 @@
       "iconURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush.PNG?raw=true",
       "tintColor": "#5CA399",
       "screenshots": [
-        "https://github.com/celtmen-cpu/CeltmenApps/blob/main/HavokAlvin/capture1.jpeg?raw=true",
-        "https://github.com/celtmen-cpu/CeltmenApps/blob/main/HavokAlvin/capture%202.jpeg?raw=true",
-        "https://github.com/celtmen-cpu/CeltmenApps/blob/main/HavokAlvin/capture3.jpeg?raw=true"
+        "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/ScreenShotSalon.png?raw=true",
+        "https://raw.githubusercontent.com/celtmen-cpu/Night-Rush/refs/heads/main/assets/IMG_0711.jpeg",
+        "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/ScreenShotClassement.png?raw=true"
       ],
       "versions": [
         {
@@ -40,16 +40,16 @@
     },
     {
       "name": "HavoK",
-      "bundleIdentifier": "com.celtmen.nightrush",
+      "bundleIdentifier": "com.havokapp.mobile",
       "developerName": "Alvin",
       "subtitle": "An app made by AlvinDev.",
       "localizedDescription": "This is an awesome app only available on AltStore and SideStore for the esport team HavoK.",
       "iconURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/HavokAlvin/logo%20havokAlvin-iOS-Dark-1024@1x.png?raw=true",
       "tintColor": "#5CA399",
       "screenshots": [
-        "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/ScreenShotSalon.png?raw=true",
-        "https://raw.githubusercontent.com/celtmen-cpu/Night-Rush/refs/heads/main/assets/IMG_0711.jpeg",
-        "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/ScreenShotClassement.png?raw=true"
+        "https://github.com/celtmen-cpu/CeltmenApps/blob/main/HavokAlvin/capture1.jpeg?raw=true",
+        "https://github.com/celtmen-cpu/CeltmenApps/blob/main/HavokAlvin/capture%202.jpeg?raw=true",
+        "https://github.com/celtmen-cpu/CeltmenApps/blob/main/HavokAlvin/capture3.jpeg?raw=true"
       ],
       "versions": [
         {
