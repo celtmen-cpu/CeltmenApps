@@ -26,7 +26,7 @@
       "versions": [
         {
           "version": "1",
-          "date": "2026-07-4T17:30:00+02:00",
+          "date": "2026-07-04T17:30:00+02:00",
           "size": 110200000,
           "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.31/NightRush.ipa",
           "localizedDescription": "Beginning of the championship.",
@@ -70,7 +70,7 @@
   "news": [
     {
       "title": "App Update and beginning of the championship",
-      "identifier": "app_update",
+      "identifier": "app_update_1",
       "caption": "An update is available for Night Rush right now.",
       "date": "2026-06-11T20:10:00+02:00",
       "tintColor": "#3660A2",
@@ -80,7 +80,7 @@
     },
     {
       "title": "App Update",
-      "identifier": "app_update",
+      "identifier": "app_update_2",
       "caption": "An update is available for Night Rush right now.",
       "date": "2026-06-11T20:10:00+02:00",
       "tintColor": "#3660A2",
@@ -90,7 +90,7 @@
     },
     {
       "title": "App Update 🥳",
-      "identifier": "app_update",
+      "identifier": "app_update_3",
       "caption": "An update is available for Night Rush right now.",
       "date": "2026-06-11T20:10:00+02:00",
       "tintColor": "#3660A2",
@@ -100,7 +100,7 @@
     },
     {
       "title": "App Update !!!",
-      "identifier": "app_update",
+      "identifier": "app_update_4",
       "caption": "An update is available for Night Rush right now.",
       "date": "2026-06-11T20:10:00+02:00",
       "tintColor": "#3660A2",
@@ -110,7 +110,7 @@
     },
     {
       "title": "App Update Available",
-      "identifier": "app_update_2",
+      "identifier": "app_update_5",
       "caption": "An update is available for Night Rush.",
       "date": "2026-06-06T10:00:00-07:00",
       "tintColor": "#3660A2",
