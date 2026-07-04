@@ -3,7 +3,7 @@ const apps = [
     name: "Night Rush",
     description: "Un jeu incroyable",
     image: "app1.png",
-    link: "https://tonlien.com/app1"
+    link: "https://celtmen-cpu.github.io/Night-Rush/assets/logoNightRush2.PNG"
   },
   {
     name: "HavoK",
