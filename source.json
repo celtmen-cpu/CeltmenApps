@@ -37,6 +37,34 @@
         "entitlements": [],
         "privacy": {}
       }
+    },
+    {
+      "name": "HavoK",
+      "bundleIdentifier": "com.celtmen.nightrush",
+      "developerName": "Alvin",
+      "subtitle": "An app made by AlvinDev.",
+      "localizedDescription": "This is an awesome app only available on AltStore and SideStore.",
+      "iconURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush.PNG?raw=true",
+      "tintColor": "#5CA399",
+      "screenshots": [
+        "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/ScreenShotSalon.png?raw=true",
+        "https://raw.githubusercontent.com/celtmen-cpu/Night-Rush/refs/heads/main/assets/IMG_0711.jpeg",
+        "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/ScreenShotClassement.png?raw=true"
+      ],
+      "versions": [
+        {
+          "version": "0.31",
+          "date": "2026-06-17T22:00:00+02:00",
+          "size": 110200000,
+          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.31/NightRush.ipa",
+          "localizedDescription": "Beginning of the championship.",
+          "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     }
   ],
   "news": [
