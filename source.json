@@ -25,8 +25,8 @@
       ],
       "versions": [
         {
-          "version": "0.31",
-          "date": "2026-06-17T22:00:00+02:00",
+          "version": "1",
+          "date": "2026-07-4T17:30:00+02:00",
           "size": 110200000,
           "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.31/NightRush.ipa",
           "localizedDescription": "Beginning of the championship.",
@@ -43,8 +43,8 @@
       "bundleIdentifier": "com.celtmen.nightrush",
       "developerName": "Alvin",
       "subtitle": "An app made by AlvinDev.",
-      "localizedDescription": "This is an awesome app only available on AltStore and SideStore.",
-      "iconURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush.PNG?raw=true",
+      "localizedDescription": "This is an awesome app only available on AltStore and SideStore for the esport team HavoK.",
+      "iconURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/HavokAlvin/logo%20havokAlvin-iOS-Dark-1024@1x.png?raw=true",
       "tintColor": "#5CA399",
       "screenshots": [
         "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/ScreenShotSalon.png?raw=true",
@@ -53,12 +53,12 @@
       ],
       "versions": [
         {
-          "version": "0.31",
+          "version": "1",
           "date": "2026-06-17T22:00:00+02:00",
           "size": 110200000,
-          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.31/NightRush.ipa",
-          "localizedDescription": "Beginning of the championship.",
-          "minOSVersion": "12.0"
+          "downloadURL": "https://github.com/celtmen-cpu/CeltmenApps/releases/download/1/havokAlvin.ipa",
+          "localizedDescription": "first version",
+          "minOSVersion": "15.1"
         }
       ],
       "appPermissions": {
