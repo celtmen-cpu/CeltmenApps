@@ -69,6 +69,16 @@
   ],
   "news": [
     {
+      "title": "New app : Havok by Alvin",
+      "identifier": "app_creation",
+      "caption": "A new app is available right now.",
+      "date": "2026-06-11T20:10:00+02:00",
+      "tintColor": "#3660A2",
+      "imageURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush2.PNG?raw=true",
+      "notify": true,
+      "appID": "com.havokapp.mobile"
+    
+    {
       "title": "App Update and beginning of the championship",
       "identifier": "app_update_1",
       "caption": "An update is available for Night Rush right now.",
