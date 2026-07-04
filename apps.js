@@ -1,13 +1,13 @@
 const apps = [
   {
-    name: "App 1",
-    description: "Description de l'app 1",
+    name: "Night Rush",
+    description: "Un jeu incroyable",
     image: "app1.png",
     link: "https://tonlien.com/app1"
   },
   {
-    name: "App 2",
-    description: "Description de l'app 2",
+    name: "HavoK",
+    description: "une version fan de l'app de havok faite par alvindev",
     image: "app2.png",
     link: "https://tonlien.com/app2"
   }
