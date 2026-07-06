@@ -2,7 +2,7 @@ const apps = [
   {
     name: "Night Rush",
     description: "Un jeu incroyable",
-    image: "app1.png",
+    image: "https://celtmen-cpu.github.io/Night-Rush/assets/logoNightRush2.PNG",
     link: "https://celtmen-cpu.github.io/Night-Rush/assets/logoNightRush2.PNG"
   },
   {
