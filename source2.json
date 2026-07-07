@@ -54,10 +54,10 @@
       ],
       "versions": [
         {
-          "version": "1.0.1",
+          "version": "1.0.2",
           "date": "2026-06-17T22:00:00+02:00",
           "size": 110200000,
-          "downloadURL": "https://github.com/celtmen-cpu/CeltmenApps/releases/download/1.0.1/havokAlvin.ipa",
+          "downloadURL": "https://github.com/celtmen-cpu/CeltmenApps/releases/download/1.0.2/havokAlvin.ipa",
           "localizedDescription": "first version",
           "minOSVersion": "15.1"
         }
