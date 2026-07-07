@@ -1,55 +1,189 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Celtmen Apps - Store d'applications</title>
-    <meta name="description" content="Celtmen Apps est un store d'applications simple et rapide pour télécharger des apps et outils.">
-    <meta name="robots" content="index, follow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="google-site-verification" content="6HDPon1TQrtdZHfcKfIZkmJjfaVbm33NnhMMMB9zKCY" />
+<meta name="google-site-verification" content="6HDPon1TQrtdZHfcKfIZkmJjfaVbm33NnhMMMB9zKCY">
 
-    <!-- Open Graph (réseaux sociaux) -->
-    <meta property="og:title" content="Celtmen Apps">
-    <meta property="og:description" content="Store d'applications simple et rapide">
-    <meta property="og:type" content="website">
+<meta name="description" content="Celtmen Apps est un store d'applications moderne pour découvrir et télécharger des applications.">
+<meta name="robots" content="index, follow">
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 40px;
-            text-align: center;
-        }
+<meta name="theme-color" content="#0071e3">
 
-        h1 {
-            font-size: 2.5rem;
-        }
+<title>Celtmen Apps - Store d'applications</title>
 
-        p {
-            max-width: 600px;
-            margin: 20px auto;
-            color: #444;
-        }
 
-        button {
-            padding: 12px 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-    </style>
+<!-- Open Graph -->
+
+<meta property="og:title" content="Celtmen Apps">
+<meta property="og:description" content="Découvrez les applications développées par Celtmen.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+
+
+<!-- Icône du site -->
+
+<link rel="icon" href="favicon.ico">
+
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",Arial,sans-serif;
+}
+
+
+body{
+
+    min-height:100vh;
+    background:#f5f5f7;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.container{
+
+    background:white;
+
+    max-width:600px;
+
+    padding:60px 40px;
+
+    border-radius:32px;
+
+    text-align:center;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.08);
+
+}
+
+
+.logo{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+}
+
+
+h1{
+
+    font-size:48px;
+
+    margin-bottom:20px;
+
+}
+
+
+p{
+
+    color:#666;
+
+    font-size:18px;
+
+    line-height:1.5;
+
+    margin-bottom:35px;
+
+}
+
+
+.button{
+
+    display:inline-block;
+
+    background:#0071e3;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 35px;
+
+    border-radius:999px;
+
+    font-weight:600;
+
+    transition:.25s;
+
+}
+
+
+.button:hover{
+
+    background:#005bb5;
+
+    transform:scale(1.05);
+
+}
+
+
+@media(max-width:600px){
+
+.container{
+
+    margin:20px;
+
+    padding:40px 25px;
+
+}
+
+
+h1{
+
+    font-size:38px;
+
+}
+
+}
+
+</style>
+
+
 </head>
 
+
 <body>
-    <h1>Celtmen Apps</h1>
 
-    <p>
-        Bienvenue sur Celtmen Apps, un store d'applications conçu pour proposer des outils et applications simples à utiliser.
-    </p>
 
-    <button onclick="window.location.href='store/index.html'">
-        Accéder au store
-    </button>
+<div class="container">
+
+
+<div class="logo">
+📱
+</div>
+
+
+<h1>
+Celtmen Apps
+</h1>
+
+
+<p>
+Découvrez un store d'applications simple, rapide et moderne.
+Téléchargez les applications développées par Celtmen.
+</p>
+
+
+<a class="button" href="store/">
+Accéder au Store
+</a>
+
+
+</div>
+
+
 </body>
+
 </html>
