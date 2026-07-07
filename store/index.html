@@ -1,29 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Mon App Store</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Celtmen Apps Store</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-  <h1>Mon Store</h1>
-  <div id="container"></div>
 
-  <script src="apps.js"></script>
-  <script>
-    const container = document.getElementById("container");
+<header>
 
-    apps.forEach(app => {
-      const div = document.createElement("div");
+<h1>Apps</h1>
 
-      div.innerHTML = `
-        <h2>${app.name}</h2>
-        <img src="${app.image}" width="100">
-        <p>${app.description}</p>
-        <a href="${app.link}">Ouvrir</a>
-      `;
+<input
+id="search"
+type="text"
+placeholder="Rechercher une app">
 
-      container.appendChild(div);
-    });
-  </script>
+</header>
+
+<main id="apps"></main>
+
+<script src="apps.js"></script>
+
 </body>
 </html>
