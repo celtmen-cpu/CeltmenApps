@@ -5,18 +5,18 @@ const apps = [
 
     name: "Night Rush",
 
-    subtitle: "Jeu d'action rapide",
+    subtitle: "An awesome game",
 
     developer: "Celtmen",
 
-    version: "1.0",
+    version: "0.31",
 
-    size: "82 Mo",
+    size: "110.2 Mo",
 
     age: "12+",
 
     description:
-    "Night Rush est un jeu d'action où vous devez survivre et progresser dans un univers rapide et intense.",
+    "An awesome game.",
 
     image:
     "https://celtmen-cpu.github.io/Night-Rush/assets/logoNightRush2.PNG",
