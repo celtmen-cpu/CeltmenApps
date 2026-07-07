@@ -1,0 +1,133 @@
+{
+  "name": "Celtmen Apps",
+  "subtitle": "All my apps in one place.",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoCeltmen.PNG?raw=true",
+  "headerURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/banniereNighRush.PNG?raw=true",
+  "website": "https://celtmen-cpu.github.io/Night-Rush/",
+  "tintColor": "#7B68EE",
+  "featuredApps": [
+    "com.celtmen.nightrush",
+    "com.havokapp.mobile"
+  ],
+  "apps": [
+    {
+      "name": "Night Rush",
+      "bundleIdentifier": "com.celtmen.nightrush",
+      "developerName": "Celtmen",
+      "subtitle": "An awesome game.",
+      "localizedDescription": "This is an awesome app only available on AltStore and SideStore.",
+      "iconURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush.PNG?raw=true",
+      "tintColor": "#5CA399",
+      "screenshots": [
+        "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/ScreenShotSalon.png?raw=true",
+        "https://raw.githubusercontent.com/celtmen-cpu/Night-Rush/refs/heads/main/assets/IMG_0711.jpeg",
+        "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/ScreenShotClassement.png?raw=true"
+      ],
+      "versions": [
+        {
+          "version": "0.31",
+          "date": "2026-07-04T17:30:00+02:00",
+          "size": 110200000,
+          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.31/NightRush.ipa",
+          "localizedDescription": "Beginning of the championship.",
+          "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "HavoK",
+      "bundleIdentifier": "com.havokapp.mobile",
+      "developerName": "Alvin",
+      "subtitle": "An app made by AlvinDev.",
+      "localizedDescription": "This is an awesome app only available on AltStore and SideStore for the esport team HavoK.",
+      "iconURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/HavokAlvin/logo%20havokAlvin-iOS-Dark-1024@1x.png?raw=true",
+      "tintColor": "#5CA399",
+      "screenshots": [
+        "https://github.com/celtmen-cpu/CeltmenApps/blob/main/HavokAlvin/capture1.jpeg?raw=true",
+        "https://github.com/celtmen-cpu/CeltmenApps/blob/main/HavokAlvin/capture%202.jpeg?raw=true",
+        "https://github.com/celtmen-cpu/CeltmenApps/blob/main/HavokAlvin/capture3.jpeg?raw=true"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-06-17T22:00:00+02:00",
+          "size": 110200000,
+          "downloadURL": "https://github.com/celtmen-cpu/CeltmenApps/releases/download/1/havokAlvin.ipa",
+          "localizedDescription": "first version",
+          "minOSVersion": "15.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": [
+    {
+      "title": "New app : Havok by Alvin",
+      "identifier": "app_creation",
+      "caption": "A new app is available right now.",
+      "date": "2026-06-11T20:10:00+02:00",
+      "tintColor": "#3660A2",
+      "imageURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/HavokAlvin/logo%20havokAlvin-iOS-Dark-1024@1x.png?raw=true",
+      "notify": true,
+      "appID": "com.havokapp.mobile"
+    },
+    {
+      "title": "App Update and beginning of the championship",
+      "identifier": "app_update_1",
+      "caption": "An update is available for Night Rush right now.",
+      "date": "2026-06-11T20:10:00+02:00",
+      "tintColor": "#3660A2",
+      "imageURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush2.PNG?raw=true",
+      "notify": true,
+      "appID": "com.celtmen.nightrush"
+    },
+    {
+      "title": "App Update",
+      "identifier": "app_update_2",
+      "caption": "An update is available for Night Rush right now.",
+      "date": "2026-06-11T20:10:00+02:00",
+      "tintColor": "#3660A2",
+      "imageURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush2.PNG?raw=true",
+      "notify": true,
+      "appID": "com.celtmen.nightrush"
+    },
+    {
+      "title": "App Update 🥳",
+      "identifier": "app_update_3",
+      "caption": "An update is available for Night Rush right now.",
+      "date": "2026-06-11T20:10:00+02:00",
+      "tintColor": "#3660A2",
+      "imageURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush2.PNG?raw=true",
+      "notify": true,
+      "appID": "com.celtmen.nightrush"
+    },
+    {
+      "title": "App Update !!!",
+      "identifier": "app_update_4",
+      "caption": "An update is available for Night Rush right now.",
+      "date": "2026-06-11T20:10:00+02:00",
+      "tintColor": "#3660A2",
+      "imageURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush2.PNG?raw=true",
+      "notify": true,
+      "appID": "com.celtmen.nightrush"
+    },
+    {
+      "title": "App Update Available",
+      "identifier": "app_update_5",
+      "caption": "An update is available for Night Rush.",
+      "date": "2026-06-06T10:00:00-07:00",
+      "tintColor": "#3660A2",
+      "imageURL": "https://github.com/celtmen-cpu/Night-Rush/blob/main/assets/logoNightRush2.PNG?raw=true",
+      "notify": true,
+      "appID": "com.celtmen.nightrush"
+    }
+  ]
+}
