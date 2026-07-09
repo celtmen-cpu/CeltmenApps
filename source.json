@@ -1,0 +1,86 @@
+{
+  "name": "CeltmenApps",
+  "subtitle": "All my IOS apps in one place.",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/logoCeltmen.PNG?raw=true",
+  "headerURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/header.jpg?raw=true",
+  "tintColor": "#0096FF",
+  "apps": [
+    {
+      "name": "Night Rush",
+      "bundleIdentifier": "com.celtmen.nighrush",
+      "developerName": "Celtmen",
+      "subtitle": "An awesome game",
+      "localizedDescription": "An endless runner game with leaderboard, skins and more!!!",
+      "iconURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Night%20Rush/logoNightRush.PNG?raw=true",
+      "tintColor": "#0D0081",
+      "category": "games",
+      "screenshots": [
+        {
+          "imageURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Night%20Rush/ScreenShotGamePlay.jpeg?raw=true",
+          "width": 2622,
+          "height": 1206
+        },
+        {
+          "imageURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Night%20Rush/ScreenShotSalon.png?raw=true",
+          "width": 2622,
+          "height": 1206
+        },
+        {
+          "imageURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Night%20Rush/ScreenShotClassement.png?raw=true",
+          "width": 2622,
+          "height": 1206
+        }
+      ],
+      "versions": [
+        {
+          "version": "0.31",
+          "buildVersion": "0.31",
+          "date": "2026-07-09T11:59:47Z",
+          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.31/NightRush.ipa",
+          "size": 89051465,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "HavoK App",
+      "bundleIdentifier": "com.havokapp.mobile",
+      "developerName": "Alvin",
+      "subtitle": "A fan made app for Team HavoK",
+      "localizedDescription": "A fan made app for Team HavoK. It is not the official app⚠️",
+      "iconURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/HavoKapp/Icon-havok-default.png?raw=true",
+      "tintColor": "#B3B2AF",
+      "category": "entertainment",
+      "screenshots": [
+        {
+          "imageURL": "https://raw.githubusercontent.com/celtmen-cpu/CeltmenApps/refs/heads/main/assets/source/HavoKapp/capture1.HEIC",
+          "width": 1206,
+          "height": 2622
+        },
+        "https://raw.githubusercontent.com/celtmen-cpu/CeltmenApps/refs/heads/main/assets/source/HavoKapp/capture2.HEIC",
+        "https://raw.githubusercontent.com/celtmen-cpu/CeltmenApps/refs/heads/main/assets/source/HavoKapp/capture3.HEIC"
+      ],
+      "versions": [
+        {
+          "version": "1.1.0",
+          "buildVersion": "5",
+          "date": "2026-07-09T12:07:11Z",
+          "downloadURL": "https://github.com/celtmen-cpu/CeltmenApps/releases/download/1.1.0/havokAlvin.ipa",
+          "size": 14277115,
+          "minOSVersion": "15.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSFaceIDUsageDescription": "Allow HavokApp to access your Face ID biometric data."
+        }
+      }
+    }
+  ]
+}
