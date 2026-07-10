@@ -1,6 +1,6 @@
 {
   "name": "CeltmenApps",
-  "subtitle": "All my IOS apps in one place.",
+  "subtitle": "All my iOS apps in one place.",
   "description": "Welcome to my source! Here you'll find all of my apps.",
   "iconURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/logoCeltmen.PNG?raw=true",
   "headerURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/header.jpg?raw=true",
@@ -22,14 +22,10 @@
           "height": 1206
         },
         {
-          "imageURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Night%20Rush/ScreenShotSalon.png?raw=true",
-          "width": 2622,
-          "height": 1206
+          "imageURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Night%20Rush/ScreenShotSalon.png?raw=true"
         },
         {
-          "imageURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Night%20Rush/ScreenShotClassement.png?raw=true",
-          "width": 2622,
-          "height": 1206
+          "imageURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Night%20Rush/ScreenShotClassement.png?raw=true"
         }
       ],
       "versions": [
