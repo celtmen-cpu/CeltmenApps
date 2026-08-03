@@ -80,46 +80,6 @@
           "NSFaceIDUsageDescription": "Allow HavokApp to access your Face ID biometric data."
         }
       }
-    },
-    {
-      "name": "CapsuleTrip",
-      "bundleIdentifier": "com.alvin.capsuletrip",
-      "developerName": "Alvin",
-      "subtitle": "je sais pas quoi mettre",
-      "localizedDescription": "je sais pas quoi mettre",
-      "iconURL": "https://raw.githubusercontent.com/celtmen-cpu/CeltmenApps/main/assets/source/HavoKapp/Icon-havok-default.png",
-      "tintColor": "#B3B2AF",
-      "category": "entertainment",
-      "screenshots": [
-        {
-          "imageURL": "https://raw.githubusercontent.com/celtmen-cpu/CeltmenApps/main/assets/source/HavoKapp/IMG_1087.jpeg"
-        },
-        {
-          "imageURL": "https://raw.githubusercontent.com/celtmen-cpu/CeltmenApps/main/assets/source/HavoKapp/IMG_1088.jpeg"
-        },
-        {
-          "imageURL": "https://raw.githubusercontent.com/celtmen-cpu/CeltmenApps/main/assets/source/HavoKapp/IMG_1089.jpeg"
-        },
-        {
-          "imageURL": "https://raw.githubusercontent.com/celtmen-cpu/CeltmenApps/main/assets/source/HavoKapp/IMG_1090.jpeg"
-        }
-      ],
-      "versions": [
-        {
-          "version": "0.0.0",
-          "buildVersion": "1",
-          "date": "2026-07-09T12:07:11Z",
-          "downloadURL": "https://github.com/celtmen-cpu/CeltmenApps/releases/download/CapsuleTrip-v1/CapsuleTrip.ipa",
-          "size": 14277115,
-          "minOSVersion": "15.1"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSFaceIDUsageDescription": "Allow HavokApp to access your Face ID biometric data."
-        }
-      }
     }
   ]
 }
