@@ -61,12 +61,15 @@ function renderApps(filter) {
   var html = "";
   for (var i = 0; i < filtered.length; i++) {
     var app = filtered[i];
+    var page = "app.html?id=" + app.id;
+    if (app.id === "night-rush") { page = "night-rush.html"; }
+    if (app.id === "havok-app") { page = "havok-app.html"; }
     html += '<div class="app">' +
       '<img src="' + app.image + '" alt="' + app.name + '" loading="lazy">' +
       '<div class="info">' +
         '<h2>' + app.name + '</h2>' +
         '<p>' + app.subtitle + '</p>' +
-        '<a class="button" href="app.html?id=' + app.id + '">Voir</a>' +
+        '<a class="button" href="' + page + '">Voir</a>' +
       '</div>' +
     '</div>';
   }
