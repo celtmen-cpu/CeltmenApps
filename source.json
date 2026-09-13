@@ -43,6 +43,41 @@
       }
     },
     {
+      "name": "Sentinal",
+      "bundleIdentifier": "com.celtmen.sentinal",
+      "developerName": "Celtmen",
+      "subtitle": "the app of the esport team sentinal",
+      "localizedDescription": "With this app you can track the news of the team and more !",
+      "iconURL": "https://raw.githubusercontent.com/celtmen-cpu/CeltmenApps/main/assets/source/Night%20Rush/logoNightRush.PNG",
+      "tintColor": "#0D0081",
+      "category": "games",
+      "screenshots": [
+        {
+          "imageURL": "https://raw.githubusercontent.com/celtmen-cpu/CeltmenApps/main/assets/source/Night%20Rush/ScreenShotGamePlay.jpeg"
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/celtmen-cpu/CeltmenApps/main/assets/source/Night%20Rush/ScreenShotSalon.png"
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/celtmen-cpu/CeltmenApps/main/assets/source/Night%20Rush/ScreenShotClassement.png"
+        }
+      ],
+      "versions": [
+        {
+          "version": "0.31",
+          "buildVersion": "0.31",
+          "date": "2026-07-09T11:59:47Z",
+          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.31/NightRush.ipa",
+          "size": 89051465,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
       "name": "HavoK App",
       "bundleIdentifier": "com.havokapp.mobile",
       "developerName": "Alvin",
