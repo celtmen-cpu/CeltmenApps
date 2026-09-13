@@ -1,10 +1,10 @@
 {
-  "name": "CeltmenApps",
+  "name": "Celtmen-Apps",
   "subtitle": "All my iOS apps in one place.",
   "description": "Welcome to my source! Here you'll find all of my apps.",
   "iconURL": "https://raw.githubusercontent.com/celtmen-cpu/CeltmenApps/main/assets/source/logoCeltmen.PNG",
   "headerURL": "https://raw.githubusercontent.com/celtmen-cpu/CeltmenApps/main/assets/source/header.jpg",
-  "website": "https://celtmen-cpu.github.io/CeltmenApps/",
+  "website": "https://celtmen-apps.pages.dev/",
   "tintColor": "#0096FF",
   "apps": [
     {
