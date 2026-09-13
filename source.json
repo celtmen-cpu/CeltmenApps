@@ -64,10 +64,10 @@
       ],
       "versions": [
         {
-          "version": "0.31",
-          "buildVersion": "0.31",
+          "version": "1",
+          "buildVersion": "1",
           "date": "2026-07-09T11:59:47Z",
-          "downloadURL": "https://github.com/celtmen-cpu/Night-Rush/releases/download/0.31/NightRush.ipa",
+          "downloadURL": "https://github.com/celtmen-cpu/CeltmenApps/releases/download/Sentinal-app/STN-app.ipa",
           "size": 89051465,
           "minOSVersion": "14.0"
         }
