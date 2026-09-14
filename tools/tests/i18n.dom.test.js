@@ -44,7 +44,7 @@ function loadPage(relPath, { browserLang = "en-US", query = "", scripts = [] } =
   vc.on("jsdomError", (err) => warns.push("jsdomError: " + err.message));
 
   const dom = new JSDOM(html, {
-    url: "https://celtmen-cpu.github.io/CeltmenApps/" + relPath + query,
+    url: "https://celtmen-apps.pages.dev/" + relPath + query,
     runScripts: "outside-only",
     pretendToBeVisual: true,
     virtualConsole: vc

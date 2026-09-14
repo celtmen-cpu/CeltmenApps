@@ -171,7 +171,7 @@ console.log("Ressources internes vérifiées : " + checked);
 
 /* --- 6. URLs du flux source.json ---------------------------------------- */
 
-const FEED_PREFIX = "https://celtmen-cpu.github.io/CeltmenApps/";
+const FEED_PREFIX = "https://celtmen-apps.pages.dev/";
 const feed = JSON.parse(fs.readFileSync(path.join(root, "source.json"), "utf8"));
 const feedUrls = JSON.stringify(feed).match(new RegExp(FEED_PREFIX.replace(/\./g, "\\.") + "[^\"]+", "g")) || [];
 const uniqueUrls = [...new Set(feedUrls)];

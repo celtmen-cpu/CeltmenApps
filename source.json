@@ -2,8 +2,8 @@
   "name": "Celtmen-Apps",
   "subtitle": "All my iOS apps in one place.",
   "description": "Welcome to my source! Here you'll find all of my apps.",
-  "iconURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/logoCeltmen.png",
-  "headerURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/header.jpg",
+  "iconURL": "https://celtmen-apps.pages.dev/assets/optimized/logoCeltmen.png",
+  "headerURL": "https://celtmen-apps.pages.dev/assets/optimized/header.jpg",
   "website": "https://celtmen-apps.pages.dev/",
   "tintColor": "#0096FF",
   "apps": [
@@ -13,18 +13,18 @@
       "developerName": "Celtmen",
       "subtitle": "An awesome game",
       "localizedDescription": "An endless runner game with leaderboard, skins and more!!!",
-      "iconURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/NightRush/logoNightRush.png",
+      "iconURL": "https://celtmen-apps.pages.dev/assets/optimized/NightRush/logoNightRush.png",
       "tintColor": "#0D0081",
       "category": "games",
       "screenshots": [
         {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/NightRush/ScreenShotGamePlay.jpg"
+          "imageURL": "https://celtmen-apps.pages.dev/assets/optimized/NightRush/ScreenShotGamePlay.jpg"
         },
         {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/NightRush/ScreenShotSalon.jpg"
+          "imageURL": "https://celtmen-apps.pages.dev/assets/optimized/NightRush/ScreenShotSalon.jpg"
         },
         {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/NightRush/ScreenShotClassement.jpg"
+          "imageURL": "https://celtmen-apps.pages.dev/assets/optimized/NightRush/ScreenShotClassement.jpg"
         }
       ],
       "versions": [
@@ -83,21 +83,21 @@
       "developerName": "Alvin",
       "subtitle": "A fan made app for Team HavoK",
       "localizedDescription": "A fan made app for Team HavoK. It is not the official app ⚠️",
-      "iconURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/Icon-havok-default.png",
+      "iconURL": "https://celtmen-apps.pages.dev/assets/optimized/HavoKapp/Icon-havok-default.png",
       "tintColor": "#B3B2AF",
       "category": "entertainment",
       "screenshots": [
         {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1087.jpg"
+          "imageURL": "https://celtmen-apps.pages.dev/assets/optimized/HavoKapp/IMG_1087.jpg"
         },
         {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1088.jpg"
+          "imageURL": "https://celtmen-apps.pages.dev/assets/optimized/HavoKapp/IMG_1088.jpg"
         },
         {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1089.jpg"
+          "imageURL": "https://celtmen-apps.pages.dev/assets/optimized/HavoKapp/IMG_1089.jpg"
         },
         {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1090.jpg"
+          "imageURL": "https://celtmen-apps.pages.dev/assets/optimized/HavoKapp/IMG_1090.jpg"
         }
       ],
       "versions": [
