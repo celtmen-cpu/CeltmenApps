@@ -686,6 +686,7 @@
     if (typeof document !== "undefined" && document.documentElement) {
       document.documentElement.lang = HTML_LANG[current];
       apply(document);
+      injectSEO();
       syncSwitcher();
       emit();
     }
@@ -704,9 +705,120 @@
     };
   }
 
-  function reveal() {
+    function reveal() {
     var root = document.documentElement;
     if (root && root.classList) { root.classList.remove("i18n-pending"); }
+  }
+
+  /* ------------------------------------------------------------------------
+   * SEO : hreflang, canon et données structurées (JSON-LD)
+   * ----------------------------------------------------------------------
+   * Le site sert le FR et l'EN sur le MÊME URL (détection navigateur). Sans
+   * hreflang, Google ne pourrait indexer qu'une seule langue. Comme le moteur
+   * supporte déjà ?lang=fr|en, on expose les deux variantes et on canonise
+   * chaque URL language-specific → Google indexe le contenu des 2 langues.
+   */
+  var HOST = "https://celtmen-apps.pages.dev";
+  var SEO_TAG = "data-celtmen-seo";
+
+  function pagePath() {
+    try {
+      var p = global.location && global.location.pathname;
+      if (!p || p.charAt(0) !== "/") { return "/"; }
+      return p;
+    } catch (e) { return "/"; }
+  }
+
+  function hrefFor(loc) {
+    return HOST + pagePath() + "?lang=" + loc;
+  }
+
+  function setMetadata(name, content) {
+    if (!content) { return; }
+    var tag = document.querySelector('meta[name="' + name + '"]');
+    if (!tag) {
+      tag = document.createElement("meta");
+      tag.setAttribute("name", name);
+      document.head.appendChild(tag);
+    }
+    tag.setAttribute("content", content);
+  }
+
+  function setProperty(name, content) {
+    if (!content) { return; }
+    var tag = document.querySelector('meta[property="' + name + '"]');
+    if (!tag) {
+      tag = document.createElement("meta");
+      tag.setAttribute("property", name);
+      document.head.appendChild(tag);
+    }
+    tag.setAttribute("content", content);
+  }
+
+    function removeAll(selector) {
+    var nodes = document.querySelectorAll(selector);
+    for (var i = 0; i < nodes.length; i++) {
+      if (nodes[i].parentNode) { nodes[i].parentNode.removeChild(nodes[i]); }
+    }
+  }
+
+    function injectSEO() {
+    if (typeof document === "undefined" || !document.head) { return; }
+
+        /* enlève les injections précédentes (idempotence, appelée à chaque setLocale) */
+    removeAll("link[rel='canonical'][data-celtmen-seo]");
+    removeAll("link[rel='alternate'][data-celtmen-seo]");
+    removeAll("script[type='application/ld+json'][data-celtmen-seo]");
+
+    /* canonical : URL de la page dans la langue courante */
+    var canon = document.createElement("link");
+    canon.setAttribute(SEO_TAG, "1");
+    canon.rel = "canonical";
+    canon.href = hrefFor(current);
+    document.head.appendChild(canon);
+
+    /* hreflang : variantes fr/en + x-default (URL propre, auto-détection) */
+    SUPPORTED.forEach(function (loc) {
+      var al = document.createElement("link");
+      al.setAttribute(SEO_TAG, "1");
+      al.rel = "alternate";
+      al.hreflang = loc;
+      al.href = hrefFor(loc);
+      document.head.appendChild(al);
+    });
+    var xdef = document.createElement("link");
+    xdef.setAttribute(SEO_TAG, "1");
+    xdef.rel = "alternate";
+    xdef.hreflang = "x-default";
+    xdef.href = HOST + pagePath();
+    document.head.appendChild(xdef);
+
+    /* métas pour les crawlers */
+    setTag("robots", "index, follow");
+    setTag("googlebot", "index, follow");
+    document.documentElement.setAttribute("lang", HTML_LANG[current]);
+
+    /* données structurées JSON-LD (WebSite + Organization) */
+    var prevLd = document.querySelector("script[type='application/ld+json'][\"" + SEO_TAG + "\"]");
+    if (prevLd) { prevLd.parentNode.removeChild(prevLd); }
+    var ld = {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": t("meta.homeTitle"),
+      "url": HOST,
+      "inLanguage": SUPPORTED.join(","),
+      "publisher": {
+        "@type": "Organization",
+        "name": t("ui.brand"),
+        "url": HOST,
+        "logo": { "@type": "ImageObject", "url": HOST + "/assets/optimized/logoCeltmen.png" }
+      }
+    };
+    var script = document.createElement("script");
+    script.setAttribute(SEO_TAG, "1");
+    script.setAttribute("type", "application/ld+json");
+    script.textContent = JSON.stringify(ld);
+    document.head.appendChild(script);
   }
 
   /**
@@ -717,7 +829,8 @@
     current = detect();
     document.documentElement.lang = HTML_LANG[current];
     apply(document);
-    buildSwitcher();
+        buildSwitcher();
+    injectSEO();
     reveal();
     global.addEventListener("load", reveal, { once: true });
     return current;
