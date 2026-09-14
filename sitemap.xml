@@ -1,34 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://celtmen-apps.pages.dev/</loc>
+    <loc>https://celtmen-cpu.github.io/CeltmenApps/</loc>
+    <lastmod>2026-09-14</lastmod>
   </url>
 
   <url>
-    <loc>https://celtmen-apps.pages.dev/NightRush/</loc>
+    <loc>https://celtmen-cpu.github.io/CeltmenApps/NightRush/</loc>
+    <lastmod>2026-09-14</lastmod>
   </url>
 
   <url>
-    <loc>https://celtmen-apps.pages.dev/NightRush/privacy.html</loc>
+    <loc>https://celtmen-cpu.github.io/CeltmenApps/NightRush/privacy.html</loc>
+    <lastmod>2026-09-12</lastmod>
   </url>
 
   <url>
-    <loc>https://celtmen-apps.pages.dev/store/</loc>
+    <loc>https://celtmen-cpu.github.io/CeltmenApps/store/</loc>
+    <lastmod>2026-09-14</lastmod>
   </url>
 
   <url>
-    <loc>https://celtmen-apps.pages.dev/store/app.html</loc>
+    <loc>https://celtmen-cpu.github.io/CeltmenApps/store/app.html</loc>
+    <lastmod>2026-09-14</lastmod>
   </url>
 
   <url>
-    <loc>https://celtmen-apps.pages.dev/store/privacy.html</loc>
+    <loc>https://celtmen-cpu.github.io/CeltmenApps/store/privacy.html</loc>
+    <lastmod>2026-09-12</lastmod>
   </url>
 
   <url>
-    <loc>https://celtmen-apps.pages.dev/store/night-rush.html</loc>
+    <loc>https://celtmen-cpu.github.io/CeltmenApps/store/night-rush.html</loc>
+    <lastmod>2026-09-12</lastmod>
   </url>
 
   <url>
-    <loc>https://celtmen-apps.pages.dev/store/havok-app.html</loc>
+    <loc>https://celtmen-cpu.github.io/CeltmenApps/store/havok-app.html</loc>
+    <lastmod>2026-09-12</lastmod>
   </url>
+
 </urlset>
