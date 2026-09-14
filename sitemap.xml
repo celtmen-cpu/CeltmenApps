@@ -1,51 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://celtmen-cpu.github.io/CeltmenApps/</loc>
-    <lastmod>2026-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://celtmen-apps.pages.dev/</loc>
   </url>
+
   <url>
-    <loc>https://celtmen-cpu.github.io/CeltmenApps/NightRush/</loc>
-    <lastmod>2026-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://celtmen-apps.pages.dev/NightRush/</loc>
   </url>
+
   <url>
-    <loc>https://celtmen-cpu.github.io/CeltmenApps/NightRush/privacy.html</loc>
-    <lastmod>2026-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://celtmen-apps.pages.dev/NightRush/privacy.html</loc>
   </url>
+
   <url>
-    <loc>https://celtmen-cpu.github.io/CeltmenApps/store/index.html</loc>
-    <lastmod>2026-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://celtmen-apps.pages.dev/store/</loc>
   </url>
+
   <url>
-    <loc>https://celtmen-cpu.github.io/CeltmenApps/store/app.html</loc>
-    <lastmod>2026-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://celtmen-apps.pages.dev/store/app.html</loc>
   </url>
+
   <url>
-    <loc>https://celtmen-cpu.github.io/CeltmenApps/store/privacy.html</loc>
-    <lastmod>2026-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://celtmen-apps.pages.dev/store/privacy.html</loc>
   </url>
+
   <url>
-    <loc>https://celtmen-cpu.github.io/CeltmenApps/store/night-rush.html</loc>
-    <lastmod>2026-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://celtmen-apps.pages.dev/store/night-rush.html</loc>
   </url>
+
   <url>
-    <loc>https://celtmen-cpu.github.io/CeltmenApps/store/havok-app.html</loc>
-    <lastmod>2026-09-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://celtmen-apps.pages.dev/store/havok-app.html</loc>
   </url>
 </urlset>
