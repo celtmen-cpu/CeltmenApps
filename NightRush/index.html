@@ -1,15 +1,333 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR" class="i18n-pending">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>télechargement Night Rush</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title data-i18n="meta.downloadTitle">Téléchargement Night Rush</title>
+
+<meta name="description" data-i18n-content="meta.downloadDesc" content="Téléchargez Night Rush gratuitement sur Android, iOS, Windows et Mac.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0D0081">
+
+<link rel="canonical" href="https://celtmen-cpu.github.io/CeltmenApps/NightRush/">
+
+<!-- Open Graph -->
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Celtmen Apps">
+<meta property="og:title" data-i18n-content="meta.downloadTitle" content="Téléchargement Night Rush">
+<meta property="og:description" data-i18n-content="meta.downloadDesc" content="Téléchargez Night Rush gratuitement.">
+<meta property="og:image" content="https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/NightRush/banniereNighRush.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Favicon : image locale du même site -->
+<link rel="icon" href="../assets/optimized/favicon.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="../assets/optimized/logoCeltmen.png">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",Arial,sans-serif;
+}
+
+
+body{
+
+min-height:100vh;
+background:#f5f5f7;
+color:#1d1d1f;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+
+padding:40px 20px;
+
+}
+
+
+.download{
+
+width:100%;
+max-width:640px;
+background:white;
+border-radius:32px;
+padding:45px 35px;
+text-align:center;
+box-shadow:0 20px 50px rgba(0,0,0,.08);
+
+}
+
+
+.download .logo{
+
+width:110px;
+height:110px;
+border-radius:26px;
+margin-bottom:22px;
+
+}
+
+
+.download h1{
+
+font-size:34px;
+margin-bottom:12px;
+
+}
+
+
+.download .note{
+
+color:#6e6e73;
+font-size:17px;
+line-height:1.5;
+margin-bottom:12px;
+
+}
+
+
+.download .version{
+
+display:inline-block;
+background:#f0f0f3;
+color:#424245;
+font-size:13px;
+font-weight:600;
+border-radius:999px;
+padding:6px 14px;
+margin-bottom:28px;
+
+}
+
+
+.platforms{
+
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:14px;
+
+}
+
+
+.platforms button{
+
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+
+font:inherit;
+font-size:16px;
+font-weight:600;
+color:white;
+
+background:#0D0081;
+border:0;
+border-radius:16px;
+padding:16px 18px;
+
+cursor:pointer;
+
+transition:background-color .2s,transform .2s;
+
+}
+
+
+.platforms button:hover{
+
+background:#1a00b3;
+transform:translateY(-2px);
+
+}
+
+
+.platforms button:focus-visible{
+
+outline:2px solid #0D0081;
+outline-offset:3px;
+
+}
+
+
+.platforms .icon{
+
+font-size:20px;
+
+}
+
+
+.help{
+
+margin-top:26px;
+color:#6e6e73;
+font-size:14px;
+line-height:1.6;
+
+}
+
+
+.help a{
+
+color:#0071e3;
+text-decoration:none;
+
+}
+
+
+.help a:hover{
+
+text-decoration:underline;
+
+}
+
+
+.back-link{
+
+display:inline-block;
+margin-bottom:18px;
+color:#0071e3;
+text-decoration:none;
+font-size:15px;
+
+}
+
+
+.back-link:hover{
+
+text-decoration:underline;
+
+}
+
+
+html.i18n-pending body{
+
+visibility:hidden;
+
+}
+
+
+@media(max-width:600px){
+
+.platforms{
+
+grid-template-columns:1fr;
+
+}
+
+.download{
+
+padding:35px 22px;
+
+}
+
+.download h1{
+
+font-size:28px;
+
+}
+
+}
+
+
+@media(prefers-reduced-motion:reduce){
+
+*{
+
+transition:none!important;
+
+}
+
+}
+
+/* Le <picture> (WebP + repli) ne génère pas de boîte : mise en page inchangée */
+picture{
+
+display:contents;
+
+}
+</style>
+
+<script src="../i18n.js" defer onerror="document.documentElement.classList.remove('i18n-pending')"></script>
+
+<noscript><style>html.i18n-pending body{visibility:visible}</style></noscript>
+
 </head>
+
+
 <body>
-  <h1>Télechargement Night Rush</h1>
-  <button onclick="window.location.href='https://github.com/celtmen-cpu/Night-Rush/releases/download/0.32/android-v0.32.apk'">Android</button>
-  <button onclick="window.location.href='https://github.com/celtmen-cpu/Night-Rush/releases/download/0.31/NightRush.ipa'">iOS</button>
-  <button onclick="window.location.href='https://github.com/celtmen-cpu/Night-Rush/releases/download/0.32/windows-v0.32.exe'">Windows</button>
-  <button onclick="window.location.href='https://github.com/celtmen-cpu/Night-Rush/releases/download/0.32/Ninja-Runner.mac-v0.32.dmg'">Mac</button>
+
+
+<a class="back-link" href="../store/night-rush.html" data-i18n="ui.backStore">Retour au Store</a>
+
+
+<div class="download">
+
+<picture>
+<source type="image/webp" srcset="../assets/optimized/NightRush/logoNightRush.webp">
+<img class="logo" src="../assets/optimized/NightRush/logoNightRush.png" alt="Night Rush" width="110" height="110" decoding="async">
+</picture>
+
+<h1 data-i18n="download.heading">Téléchargement Night Rush</h1>
+
+<p class="note" data-i18n="download.note">Choisissez votre plateforme pour installer Night Rush gratuitement.</p>
+
+<p class="version" data-i18n="download.version">Version 0.32 · iOS 0.31</p>
+
+
+<div class="platforms">
+
+<button type="button" data-url="https://github.com/celtmen-cpu/Night-Rush/releases/download/0.32/android-v0.32.apk">
+<span class="icon" aria-hidden="true"></span>
+<span>Android</span>
+</button>
+
+<button type="button" data-url="https://github.com/celtmen-cpu/Night-Rush/releases/download/0.31/NightRush.ipa">
+<span class="icon" aria-hidden="true">🍎</span>
+<span>iOS</span>
+</button>
+
+<button type="button" data-url="https://github.com/celtmen-cpu/Night-Rush/releases/download/0.32/windows-v0.32.exe">
+<span class="icon" aria-hidden="true"></span>
+<span>Windows</span>
+</button>
+
+<button type="button" data-url="https://github.com/celtmen-cpu/Night-Rush/releases/download/0.32/Ninja-Runner.mac-v0.32.dmg">
+<span class="icon" aria-hidden="true">💻</span>
+<span>Mac</span>
+</button>
+
+</div>
+
+
+<p class="help" data-i18n-html="download.help">Un problème d'installation ? Consultez la <a href="../store/night-rush.html">fiche de Night Rush</a> ou la <a href="privacy.html">politique de confidentialité</a>.</p>
+
+</div>
+
+
+<script>
+
+/* Un seul écouteur délégué pour les 4 boutons : le HTML reste sans onclick */
+document.addEventListener("click", function (event) {
+
+var button = event.target.closest("[data-url]");
+
+if (!button) { return; }
+
+window.location.href = button.getAttribute("data-url");
+
+});
+
+</script>
+
+
 </body>
+
 </html>

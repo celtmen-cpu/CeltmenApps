@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-<html lang="fr-FR">
+<html lang="fr-FR" class="i18n-pending">
 
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Celtmen Apps Store</title>
+<title data-i18n="meta.storeTitle">Celtmen Apps Store</title>
 
-<meta name="description" content="Découvrez les applications Celtmen Apps.">
+<meta name="description" data-i18n-content="meta.storeDesc" content="Découvrez toutes les applications Celtmen Apps : Night Rush, HavoK App et plus encore.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0071e3">
+<meta name="author" content="Celtmen">
+
+<link rel="canonical" href="https://celtmen-cpu.github.io/CeltmenApps/store/">
+
+<!-- Open Graph / réseaux sociaux -->
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Celtmen Apps">
+<meta property="og:title" data-i18n-content="meta.storeTitle" content="Celtmen Apps Store">
+<meta property="og:description" data-i18n-content="meta.storeDesc" content="Découvrez toutes les applications Celtmen Apps.">
+<meta property="og:url" content="https://celtmen-cpu.github.io/CeltmenApps/store/">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Favicon : image locale du même site -->
+
+<link rel="icon" href="../assets/optimized/favicon.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="../assets/optimized/logoCeltmen.png">
 
 <link rel="stylesheet" href="style.css">
+
+<!-- Traductions : la langue de l'utilisateur est chargée automatiquement -->
+<script src="../i18n.js" defer onerror="document.documentElement.classList.remove('i18n-pending')"></script>
+<script src="apps.js" defer></script>
+
+<noscript><style>html.i18n-pending body{visibility:visible}</style></noscript>
 
 </head>
 
@@ -20,15 +45,21 @@
 
 <header class="header">
 
-<h1>Celtmen Apps</h1>
+<div id="lang-switcher" class="lang-slot"></div>
 
-<p>Découvrez nos applications</p>
+<h1 data-i18n="ui.brand">Celtmen Apps</h1>
+
+<p data-i18n="ui.tagline">Découvrez nos applications</p>
 
 
-<input 
+<input
 id="search"
 type="search"
-placeholder="Rechercher une application..."
+autocomplete="off"
+placeholder="Rechercher une application…"
+data-i18n-placeholder="ui.searchPlaceholder"
+data-i18n-label="ui.searchPlaceholder"
+aria-label="Rechercher une application…"
 >
 
 
@@ -38,7 +69,7 @@ placeholder="Rechercher une application..."
 
 <section>
 
-<h2 class="title">
+<h2 class="title" data-i18n="ui.allApps">
 Toutes les apps
 </h2>
 
@@ -51,8 +82,10 @@ Toutes les apps
 </section>
 
 
+<footer class="footer" data-i18n="ui.footer">
+© 2026 Celtmen. Tous droits réservés.
+</footer>
 
-<script src="apps.js"></script>
 
 
 </body>

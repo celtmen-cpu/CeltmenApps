@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr-FR">
+<html lang="fr-FR" class="i18n-pending">
 
 <head>
 
@@ -8,26 +8,29 @@
 
 <meta name="google-site-verification" content="6HDPon1TQrtdZHfcKfIZkmJjfaVbm33NnhMMMB9zKCY">
 
-<meta name="description" content="Celtmen Apps est un store d'applications moderne pour découvrir et télécharger des applications.">
+<meta name="description" data-i18n-content="meta.homeDesc" content="Celtmen Apps est un store d'applications moderne pour découvrir et télécharger les applications développées par Celtmen.">
 <meta name="robots" content="index, follow">
-<meta name="keywords" content="celtmen, apps, goat, download, boss, night, rush, shimo, havok"
+<meta name="keywords" content="celtmen, apps, goat, download, boss, night, rush, shimo, havok">
 
 <meta name="theme-color" content="#0071e3">
 
-<title>Celtmen Apps - Store d'applications</title>
+<title data-i18n="meta.homeTitle">Celtmen Apps - Store d'applications</title>
 
 
 <!-- Open Graph -->
 
-<meta property="og:title" content="Celtmen Apps">
-<meta property="og:description" content="Découvrez les applications développées par Celtmen.">
+<meta property="og:title" data-i18n-content="meta.homeTitle" content="Celtmen Apps - Store d'applications">
+<meta property="og:description" data-i18n-content="meta.homeDesc" content="Découvrez les applications développées par Celtmen.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
 
 
 <!-- Icône du site -->
 
-<link rel="icon" href="favicon.ico">
+<link rel="icon" href="assets/optimized/favicon.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="assets/optimized/logoCeltmen.png">
+
+<link rel="canonical" href="https://celtmen-cpu.github.io/CeltmenApps/">
 
 
 <style>
@@ -149,7 +152,20 @@ h1{
 
 }
 
+
+/* Évite l'affichage de la mauvaise langue au chargement */
+html.i18n-pending body{
+
+visibility:hidden;
+
+}
+
 </style>
+
+<!-- Traductions : la langue de l'utilisateur est chargée automatiquement -->
+<script src="i18n.js" defer onerror="document.documentElement.classList.remove('i18n-pending')"></script>
+
+<noscript><style>html.i18n-pending body{visibility:visible}</style></noscript>
 
 
 </head>
@@ -166,18 +182,18 @@ h1{
 </div>
 
 
-<h1>
+<h1 data-i18n="landing.heading">
 Celtmen Apps
 </h1>
 
 
-<p>
+<p data-i18n="landing.text">
 Découvrez un store d'applications simple, rapide et moderne.
 Téléchargez les applications développées par Celtmen.
 </p>
 
 
-<a class="button" href="store/">
+<a class="button" href="store/" data-i18n="landing.cta">
 Accéder au Store
 </a>
 

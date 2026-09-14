@@ -1,0 +1,14 @@
+{
+  "name": "celtmenapps-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tests de la localisation, du rendu et des ressources du site Celtmen Apps",
+  "scripts": {
+    "test": "node check-i18n.js && node i18n.dom.test.js",
+    "test:static": "node check-i18n.js",
+    "test:dom": "node i18n.dom.test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.1"
+  }
+}

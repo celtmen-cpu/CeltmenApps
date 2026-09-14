@@ -119,6 +119,17 @@ box-shadow:0 8px 25px rgba(0,0,0,.08);
 
 
 
+/* Le <picture> qui enveloppe les images (WebP + repli) ne doit pas générer
+   de boîte : l'image reste l'élément positionné, mise en page inchangée. */
+.app picture,
+.hero picture,
+.screens picture{
+
+display:contents;
+
+}
+
+
 .app img{
 
 width:120px;
@@ -184,5 +195,47 @@ font-weight:600;
 .button:hover{
 
 background:#005bb5;
+
+}
+
+
+
+/* --- Catalogue ----------------------------------------------------------- */
+
+.empty{
+
+padding:20px 0;
+color:#6e6e73;
+font-size:16px;
+
+}
+
+
+.footer{
+
+padding:10px 25px 45px;
+color:#6e6e73;
+font-size:13px;
+
+}
+
+
+/* --- Internationalisation ------------------------------------------------ */
+
+/* Évite l'affichage d'une page dans la mauvaise langue avant l'application
+   des traductions (le script i18n.js retire la classe).
+   Le style du sélecteur de langue est injecté par i18n.js. */
+html.i18n-pending body{
+
+visibility:hidden;
+
+}
+
+
+@media(prefers-reduced-motion:reduce){
+
+.button{
+  transition:none;
+}
 
 }
