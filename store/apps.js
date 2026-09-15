@@ -43,30 +43,6 @@
       ]
     },
     {
-      id: "havok-app",
-      key: "apps.havok-app",
-      developer: "Alvin",
-      categoryKey: "categories.entertainment",
-      link: "https://github.com/celtmen-cpu/CeltmenApps/releases/download/1.1.0/havokAlvin.ipa",
-      page: "havok-app.html",
-      icon: {
-        webp: ICONS + "HavoKapp/Icon-havok-default.webp",
-        fallback: ICONS + "HavoKapp/Icon-havok-default.png"
-      },
-      shotSize: { width: 462, height: 1000 },
-      screenshots: [
-        { webp: ICONS + "HavoKapp/IMG_1087.webp", fallback: ICONS + "HavoKapp/IMG_1087.jpg" },
-        { webp: ICONS + "HavoKapp/IMG_1088.webp", fallback: ICONS + "HavoKapp/IMG_1088.jpg" },
-        { webp: ICONS + "HavoKapp/IMG_1089.webp", fallback: ICONS + "HavoKapp/IMG_1089.jpg" },
-        { webp: ICONS + "HavoKapp/IMG_1090.webp", fallback: ICONS + "HavoKapp/IMG_1090.jpg" }
-      ],
-      screensAltKeys: [
-        "apps.havok-app.screensAlt1",
-        "apps.havok-app.screensAlt2",
-        "apps.havok-app.screensAlt3",
-        "apps.havok-app.screensAlt4"
-      ]
-    }
   ];
 
   /** Traduit un champ d'une application ("apps.<id>.<champ>"). */

@@ -40,7 +40,7 @@
 
       meta: {
         storeTitle: "Celtmen Apps Store",
-        storeDesc: "Découvrez toutes les applications Celtmen Apps : Night Rush, HavoK App et plus encore. Téléchargement simple, rapide et sécurisé.",
+        storeDesc: "Découvrez toutes les applications Celtmen Apps. Téléchargement simple, rapide et sécurisé.",
         appDesc: "Fiche détaillée d'une application du store Celtmen Apps.",
         nightRushTitle: "Night Rush - Celtmen Apps",
         nightRushDesc: "Night Rush, un jeu d'endless runner avec classement mondial, skins et power-ups.",
@@ -154,11 +154,11 @@
         s3Intro: "Notre site est statique et ne collecte pas directement de données personnelles. Cependant, les données suivantes peuvent être collectées :",
         s3li1Html: "<strong>Données de navigation :</strong> comme la plupart des sites, nous pouvons collecter des informations via des services tiers (voir section 6).",
         s3li2Html: "<strong>Aucune donnée directement soumise :</strong> nous ne proposons pas de formulaire de compte, de paiement ni d'inscription sur ce site.",
-        s3li3Html: "<strong>Applications tierces :</strong> les applications téléchargées via notre store (Night Rush, HavoK App, etc.) ont leurs propres politiques de confidentialité. Nous vous invitons à les consulter avant toute installation.",
+        s3li3Html: "<strong>Applications tierces :</strong> les applications téléchargées via notre store ont leurs propres politiques de confidentialité. Nous vous invitons à les consulter avant toute installation.",
         s4t: "4. Applications distribuées",
         s4Intro: "Les applications proposées sur notre store peuvent collecter des données personnelles (identifiants, données biométriques, etc.). Voici les permissions connues :",
         s4li1Html: "<strong>Night Rush</strong> : aucune permission sensible requise.",
-        s4li2Html: "<strong>HavoK App</strong> : accès aux données biométriques (Face ID) — requis pour l'authentification.",
+        /* h2li2HTML supprimé : correspond à l'entrée apps.havok-app supprimée */
         s4Outro: "Pour plus de détails, consultez la description de chaque application dans le store.",
         s5t: "5. Hébergement et téléchargements",
         s5li1Html: "<strong>Site web :</strong> hébergé par GitHub Pages (GitHub, Inc.). <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement\" target=\"_blank\" rel=\"noopener\">Politique de GitHub</a>",
@@ -254,7 +254,7 @@
 
       meta: {
         storeTitle: "Celtmen Apps Store",
-        storeDesc: "Discover every Celtmen Apps application: Night Rush, HavoK App and more. Fast, simple and secure downloads.",
+        storeDesc: "Discover every Celtmen Apps application. Fast, simple and secure downloads.",
         appDesc: "Detailed page of a Celtmen Apps store application.",
         nightRushTitle: "Night Rush - Celtmen Apps",
         nightRushDesc: "Night Rush, an endless runner game with a global leaderboard, skins and power-ups.",
@@ -368,7 +368,7 @@
         s3Intro: "Our website is static and does not collect personal data directly. However, the following data may be collected:",
         s3li1Html: "<strong>Browsing data:</strong> like most websites, we may collect information through third-party services (see section 6).",
         s3li2Html: "<strong>No data submitted directly:</strong> we provide no account, payment or sign-up form on this website.",
-        s3li3Html: "<strong>Third-party apps:</strong> applications downloaded from our store (Night Rush, HavoK App, etc.) have their own privacy policies. We recommend reading them before installing anything.",
+        s3li3Html: "<strong>Third-party apps:</strong> applications downloaded from our store have their own privacy policies. We recommend reading them before installing anything.",
         s4t: "4. Distributed applications",
         s4Intro: "Applications available in our store may collect personal data (identifiers, biometric data, etc.). Here are the known permissions:",
         s4li1Html: "<strong>Night Rush</strong>: no sensitive permission required.",
@@ -718,7 +718,7 @@
    * supporte déjà ?lang=fr|en, on expose les deux variantes et on canonise
    * chaque URL language-specific → Google indexe le contenu des 2 langues.
    */
-  var HOST = "https://celtmen-apps.pages.dev";
+  var HOST = "https://celtmen-cpu.github.io/CeltmenApps/";
   var SEO_TAG = "data-celtmen-seo";
 
   function pagePath() {
