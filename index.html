@@ -1,195 +1,94 @@
 <!DOCTYPE html>
-<html lang="fr-FR" class="i18n-pending">
-
+<html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<meta name="google-site-verification" content="6HDPon1TQrtdZHfcKfIZkmJjfaVbm33NnhMMMB9zKCY">
-
-<meta name="description" data-i18n-content="meta.homeDesc" content="Celtmen Apps est un store d'applications moderne pour découvrir et télécharger les applications développées par Celtmen.">
+<meta name="description" content="Celtmen Apps - Discover and download apps by Celtmen. Night Rush: a free endless runner with online leaderboard.">
 <meta name="robots" content="index, follow">
-
 <meta name="theme-color" content="#0071e3">
-
-<title data-i18n="meta.homeTitle">Celtmen Apps - Store d'applications</title>
-
-
-<!-- Open Graph -->
-
-<meta property="og:title" data-i18n-content="meta.homeTitle" content="Celtmen Apps - Store d'applications">
-<meta property="og:description" data-i18n-content="meta.homeDesc" content="Découvrez les applications développées par Celtmen.">
+<title>Celtmen Apps - App Store</title>
+<meta property="og:title" content="Celtmen Apps - App Store">
+<meta property="og:description" content="Discover apps by Celtmen. Night Rush and more.">
 <meta property="og:type" content="website">
-<meta property="og:locale" content="fr_FR">
-
-
-<!-- Icône du site -->
-
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://celtmen-apps.pages.dev/">
+<meta property="og:image" content="https://celtmen-apps.pages.dev/assets/optimized/logoCeltmen.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="google-site-verification" content="6HDPon1TQrtdZHfcKfIZkmJjfaVbm33NnhMMMB9zKCY">
 <link rel="icon" href="assets/optimized/favicon.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="assets/optimized/logoCeltmen.png">
-
-<link rel="canonical" href="https://celtmen-cpu.github.io/CeltmenApps/">
-
-
+<link rel="canonical" href="https://celtmen-apps.pages.dev/">
 <style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",Arial,sans-serif;
-}
-
-
+*{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",Arial,sans-serif;}
 body{
-
-    min-height:100vh;
-    background:#f5f5f7;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
+min-height:100vh;
+background:#f5f5f7;
+color:#1d1d1f;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+padding:40px 20px;
 }
-
-
 .container{
-
-    background:white;
-
-    max-width:600px;
-
-    padding:60px 40px;
-
-    border-radius:32px;
-
-    text-align:center;
-
-    box-shadow:0 20px 50px rgba(0,0,0,.08);
-
+width:100%;
+max-width:800px;
+text-align:center;
 }
-
-
 .logo{
-
-    font-size:60px;
-
-    margin-bottom:20px;
-
+width:110px;
+height:110px;
+border-radius:26px;
+margin-bottom:22px;
 }
-
-
-h1{
-
-    font-size:48px;
-
-    margin-bottom:20px;
-
+.container h1{
+font-size:34px;
+margin-bottom:12px;
 }
-
-
-p{
-
-    color:#666;
-
-    font-size:18px;
-
-    line-height:1.5;
-
-    margin-bottom:35px;
-
+.container p{
+color:#6e6e73;
+font-size:17px;
+line-height:1.5;
+margin-bottom:12px;
 }
-
-
 .button{
-
-    display:inline-block;
-
-    background:#0071e3;
-
-    color:white;
-
-    text-decoration:none;
-
-    padding:15px 35px;
-
-    border-radius:999px;
-
-    font-weight:600;
-
-    transition:.25s;
-
+display:inline-block;
+background:#0071e3;
+color:white;
+font:inherit;
+font-size:16px;
+font-weight:600;
+padding:14px 32px;
+border-radius:14px;
+text-decoration:none;
+margin-top:18px;
+transition:background-color .2s;
 }
-
-
-.button:hover{
-
-    background:#005bb5;
-
-    transform:scale(1.05);
-
+.button:hover{background:#005bb5;}
+.back-link{
+display:inline-block;
+margin-bottom:20px;
+color:#0071e3;
+text-decoration:none;
+font-size:15px;
 }
-
-
+.back-link:hover{text-decoration:underline;}
 @media(max-width:600px){
-
-.container{
-
-    margin:20px;
-
-    padding:40px 25px;
-
+.container h1{font-size:28px;}
 }
-
-
-h1{
-
-    font-size:38px;
-
-}
-
-}
-
-
-/* i18n.js */
-
 </style>
-
-
 </head>
-
-
 <body>
-
-
 <div class="container">
-
-
-<div class="logo">
-📱
-</div>
-
-
-<h1 data-i18n="landing.heading">
-Celtmen Apps
-</h1>
-
-
-<p data-i18n="landing.text">
-Découvrez un store d'applications simple, rapide et moderne.
-Téléchargez les applications développées par Celtmen.
+<a href="store/" class="back-link">App Store</a>
+<img class="logo" src="assets/optimized/logoCeltmen.png" alt="Celtmen Apps" width="110" height="110">
+<h1>Celtmen Apps</h1>
+<p>Discover and download apps by Celtmen. All free, all open source.</p>
+<a href="NightRush/" class="button">Get Night Rush</a>
+<p style="margin-top:24px;font-size:14px;color:#6e6e73;">
+<a href="NightRush/">Night Rush</a> · 
+<a href="privacy.html">Privacy Policy</a>
 </p>
-
-
-<a class="button" href="store/" data-i18n="landing.cta">
-Accéder au Store
-</a>
-
-
 </div>
-
-
 </body>
-
 </html>
