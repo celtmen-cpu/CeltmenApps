@@ -1,0 +1,66 @@
+/* Global reset — shared by all pages */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",Arial,sans-serif;
+}
+body{
+min-height:100vh;
+background:#f5f5f7;
+color:#1d1d1f;
+}
+
+/* Privacy pages (root) */
+.privacy{
+max-width:800px;
+margin:auto;
+padding:40px 25px;
+}
+.privacy h1{
+font-size:36px;
+margin-bottom:10px;
+}
+.privacy h2{
+font-size:22px;
+margin-top:30px;
+margin-bottom:10px;
+color:#1d1d1f;
+}
+.privacy p,
+.privacy li{
+color:#424245;
+font-size:16px;
+line-height:1.6;
+margin-bottom:10px;
+}
+.privacy ul{
+padding-left:20px;
+margin-bottom:10px;
+}
+.privacy .last-updated{
+color:#6e6e73;
+font-size:14px;
+margin-bottom:25px;
+}
+.privacy a{
+color:#0071e3;
+text-decoration:none;
+}
+.privacy a:hover{
+text-decoration:underline;
+}
+.back-link{
+display:inline-block;
+margin-bottom:20px;
+color:#0071e3;
+text-decoration:none;
+font-size:15px;
+}
+.back-link:hover{
+text-decoration:underline;
+}
+@media(max-width:600px){
+.privacy h1{font-size:28px;}
+.privacy h2{font-size:20px;}
+}
