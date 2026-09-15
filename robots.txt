@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://celtmen-apps.pages.dev/sitemap.xml
+Sitemap: https://celtmen-cpu.github.io/CeltmenApps/sitemap.xml
