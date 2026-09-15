@@ -793,9 +793,9 @@
     xdef.href = HOST + pagePath();
     document.head.appendChild(xdef);
 
-    /* métas pour les crawlers */
-    setTag("robots", "index, follow");
-    setTag("googlebot", "index, follow");
+    /* robots / googlebot */
+    setMetadata("robots", "index, follow");
+    setProperty("googlebot", "index, follow");
     document.documentElement.setAttribute("lang", HTML_LANG[current]);
 
     /* données structurées JSON-LD (WebSite + Organization) */
