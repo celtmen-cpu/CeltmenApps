@@ -1,22 +1,11 @@
 /*!
- * Celtmen Apps - catalogue du store
+ * Celtmen Apps - catalogue du store (FR / EN)
  * ---------------------------------------------------------------------------
- * - expose les données brutes (window.StoreData) utilisées par app.js
- * - rend la liste des applications de store/index.html (bilingue via I18N)
- *
- * Les textes ne sont PAS stockés ici : ils viennent de i18n.js, ce qui évite
- * toute duplication entre la liste, la fiche détaillée et les pages dédiées.
+ * Un seul fichier de données + rendu pour store/index.html.
+ * Les textes viennent de i18n.js. Pas de duplication.
  */
 (function (global) {
   "use strict";
-
-  /* Assets optimisés (WebP + repli PNG/JPEG), générés par
-     tools/optimize-images.sh à partir de assets/source. Servis par le même
-     site (GitHub Pages) : chemins relatifs, aucun CDN externe. */
-  var ICONS = "../assets/optimized/";
-
-  /* Taille intrinsèque des icônes générées (voir tools/optimize-images.sh) */
-  var ICON_SIZE = 384;
 
   var APPS = [
     {
@@ -24,190 +13,112 @@
       key: "apps.night-rush",
       developer: "Celtmen",
       categoryKey: "categories.games",
-      link: "../NightRush/",
+      image: "../assets/optimized/NightRush/logoNightRush.png",
       page: "night-rush.html",
-      icon: {
-        webp: ICONS + "NightRush/logoNightRush.webp",
-        fallback: ICONS + "NightRush/logoNightRush.png"
-      },
-      shotSize: { width: 1000, height: 460 },
       screenshots: [
-        { webp: ICONS + "NightRush/ScreenShotGamePlay.webp", fallback: ICONS + "NightRush/ScreenShotGamePlay.jpg" },
-        { webp: ICONS + "NightRush/ScreenShotSalon.webp", fallback: ICONS + "NightRush/ScreenShotSalon.jpg" },
-        { webp: ICONS + "NightRush/ScreenShotClassement.webp", fallback: ICONS + "NightRush/ScreenShotClassement.jpg" }
-      ],
-      screensAltKeys: [
-        "apps.night-rush.screensAlt1",
-        "apps.night-rush.screensAlt2",
-        "apps.night-rush.screensAlt3"
+        "../assets/optimized/NightRush/ScreenShotGamePlay.jpg",
+        "../assets/optimized/NightRush/ScreenShotSalon.jpg",
+        "../assets/optimized/NightRush/ScreenShotClassement.jpg"
       ]
-    },
-    {
+    }
   ];
-
-  /** Traduit un champ d'une application ("apps.<id>.<champ>"). */
-  function value(app, field) {
-    return global.I18N.t(app.key + "." + field);
-  }
-
-  /**
-   * Construit un <picture> : WebP pour les navigateurs modernes, repli
-   * PNG/JPEG sinon. Les dimensions intrinsèques réservent la place de l'image
-   * avant son chargement (évite les sauts de mise en page).
-   */
-  function picture(media, alt, options) {
-    options = options || {};
-    var box = document.createElement("picture");
-    var source = document.createElement("source");
-    source.type = "image/webp";
-    source.srcset = media.webp;
-    box.appendChild(source);
-
-    var image = document.createElement("img");
-    image.src = media.fallback;
-    image.alt = alt;
-    image.width = options.width || ICON_SIZE;
-    image.height = options.height || ICON_SIZE;
-    image.decoding = "async";
-    if (options.lazy) { image.loading = "lazy"; }
-    box.appendChild(image);
-    return box;
-  }
-
-  /** Renvoie tous les textes d'une application dans la langue courante. */
-  function localize(app) {
-    return {
-      name: value(app, "name"),
-      subtitle: value(app, "subtitle"),
-      description: value(app, "description"),
-      category: global.I18N.t(app.categoryKey),
-      developer: app.developer,
-      size: value(app, "size"),
-      version: value(app, "version"),
-      age: value(app, "age"),
-      minIOS: value(app, "minIOS"),
-      platforms: value(app, "platforms"),
-      screensAlt: app.screensAltKeys.map(function (key) {
-        return global.I18N.t(key);
-      })
-    };
-  }
 
   function find(id) {
     for (var i = 0; i < APPS.length; i++) {
-      if (APPS[i].id === id) {
-        return APPS[i];
-      }
+      if (APPS[i].id === id) return APPS[i];
     }
     return null;
   }
 
-  global.StoreData = {
-    apps: APPS,
-    find: find,
-    localize: localize,
-    value: value,
-    picture: picture,
-    iconSize: ICON_SIZE
-  };
-
-  /* --- Liste des applications (store/index.html) --------------------------- */
-
-  var container = document.getElementById("apps");
-  if (!container) {
-    return;
+  function localize(app) {
+    return {
+      name: global.I18N.t(app.key + ".name"),
+      subtitle: global.I18N.t(app.key + ".subtitle"),
+      description: global.I18N.t(app.key + ".description"),
+      category: global.I18N.t(app.categoryKey),
+      developer: app.developer,
+      size: global.I18N.t(app.key + ".size"),
+      version: global.I18N.t(app.key + ".version"),
+      age: global.I18N.t(app.key + ".age"),
+      minIOS: global.I18N.t(app.key + ".minIOS"),
+      platforms: global.I18N.t(app.key + ".platforms"),
+      screensAlt: [
+        global.I18N.t(app.key + ".screensAlt1"),
+        global.I18N.t(app.key + ".screensAlt2"),
+        global.I18N.t(app.key + ".screensAlt3")
+      ]
+    };
   }
 
-  var searchInput = document.getElementById("search");
-  var frame = null;
+  global.StoreData = { apps: APPS, find: find, localize: localize };
 
-  function buildCard(app) {
+  /* --- Rendu de la liste (store/index.html) ------------------------------ */
+
+  var container = document.getElementById("apps");
+  var searchInput = document.getElementById("search");
+  if (!container) return;
+
+  function card(app) {
     var data = localize(app);
 
-    var card = document.createElement("article");
-    card.className = "app";
+    var article = document.createElement("article");
+    article.className = "app";
+
+    var img = document.createElement("img");
+    img.src = app.image;
+    img.alt = data.name;
+    img.loading = "lazy";
+    img.decoding = "async";
 
     var info = document.createElement("div");
     info.className = "info";
 
-    var title = document.createElement("h2");
-    title.textContent = data.name;
+    var h2 = document.createElement("h2");
+    h2.textContent = data.name;
 
-    var subtitle = document.createElement("p");
-    subtitle.textContent = data.subtitle;
+    var p = document.createElement("p");
+    p.textContent = data.subtitle;
 
-    var view = document.createElement("a");
-    view.className = "button";
-    view.href = app.page;
-    view.textContent = global.I18N.t("ui.view");
+    var a = document.createElement("a");
+    a.className = "button";
+    a.href = app.page;
+    a.textContent = global.I18N.t("ui.view");
 
-    info.appendChild(title);
-    info.appendChild(subtitle);
-    info.appendChild(view);
-    card.appendChild(picture(app.icon, data.name, { lazy: true }));
-    card.appendChild(info);
-    return card;
+    info.appendChild(h2);
+    info.appendChild(p);
+    info.appendChild(a);
+    article.appendChild(img);
+    article.appendChild(info);
+    return article;
   }
 
-  function matches(app, query) {
-    if (!query) {
-      return true;
-    }
-    var data = localize(app);
-    var haystack = data.name + " " + data.subtitle + " " + data.developer + " " + data.category;
-    return haystack.toLowerCase().indexOf(query) !== -1;
-  }
-
-  function render() {
-    var query = searchInput && searchInput.value ? searchInput.value.trim().toLowerCase() : "";
+  function search(query) {
+    var q = query ? query.toLowerCase() : "";
     var fragment = document.createDocumentFragment();
     var shown = 0;
 
     APPS.forEach(function (app) {
-      if (!matches(app, query)) {
-        return;
-      }
-      fragment.appendChild(buildCard(app));
+      var data = localize(app);
+      var hay = (data.name + " " + data.subtitle + " " + data.developer + " " + data.category).toLowerCase();
+      if (q && hay.indexOf(q) === -1) return;
+      fragment.appendChild(card(app));
       shown++;
     });
 
     container.textContent = "";
-
     if (shown === 0) {
       var empty = document.createElement("p");
       empty.className = "empty";
       empty.textContent = global.I18N.t("ui.noResults");
       container.appendChild(empty);
-      return;
-    }
-
-    container.appendChild(fragment);
-  }
-
-  /* Regroupe les rendus sur une seule frame : évite de reconstruire la liste
-     à chaque frappe quand l'utilisateur tape vite. */
-  function scheduleRender() {
-    if (frame !== null) {
-      return;
-    }
-    if (global.requestAnimationFrame) {
-      frame = global.requestAnimationFrame(function () {
-        frame = null;
-        render();
-      });
     } else {
-      frame = global.setTimeout(function () {
-        frame = null;
-        render();
-      }, 16);
+      container.appendChild(fragment);
     }
   }
 
-  if (searchInput) {
-    searchInput.addEventListener("input", scheduleRender);
-  }
+  if (searchInput) searchInput.addEventListener("input", function () { search(searchInput.value); });
 
-  global.I18N.onChange(render);
-  render();
+  global.I18N.onChange(function () { search(searchInput ? searchInput.value : ""); });
+  search("");
 
 })(window);
