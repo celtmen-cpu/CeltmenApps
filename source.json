@@ -17,15 +17,9 @@
       "tintColor": "#0D0081",
       "category": "games",
       "screenshots": [
-        {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/NightRush/ScreenShotGamePlay.jpg"
-        },
-        {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/NightRush/ScreenShotSalon.jpg"
-        },
-        {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/NightRush/ScreenShotClassement.jpg"
-        }
+        "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/NightRush/ScreenShotGamePlay.jpg",
+        "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/NightRush/ScreenShotSalon.jpg",
+        "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/NightRush/ScreenShotClassement.jpg"
       ],
       "versions": [
         {
@@ -52,15 +46,9 @@
       "tintColor": "#121212",
       "category": "entertainment",
       "screenshots": [
-        {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/Sentinal-app/IMG_2114.jpeg"
-        },
-        {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/Sentinal-app/IMG_2115.jpeg"
-        },
-        {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/Sentinal-app/IMG_2116.jpeg"
-        }
+        "https://celtmen-cpu.github.io/CeltmenApps/Sentinal-app/IMG_2114.jpeg",
+        "https://celtmen-cpu.github.io/CeltmenApps/Sentinal-app/IMG_2115.jpeg",
+        "https://celtmen-cpu.github.io/CeltmenApps/Sentinal-app/IMG_2116.jpeg"
       ],
       "versions": [
         {
@@ -87,18 +75,10 @@
       "tintColor": "#B3B2AF",
       "category": "entertainment",
       "screenshots": [
-        {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1087.jpg"
-        },
-        {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1088.jpg"
-        },
-        {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1089.jpg"
-        },
-        {
-          "imageURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1090.jpg"
-        }
+        "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1087.jpg",
+        "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1088.jpg",
+        "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1089.jpg",
+        "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1090.jpg"
       ],
       "versions": [
         {
@@ -115,6 +95,19 @@
         "privacy": {
           "NSFaceIDUsageDescription": "Allow HavokApp to access your Face ID biometric data."
         }
+      }
+    },
+    {
+      "name": "Shimo",
+      "bundleIdentifier": "com.celtmen.shimo",
+      "developerName": "Celtmen",
+      "localizedDescription": "",
+      "iconURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Shimo/logo.png?raw=true",
+      "category": "entertainment",
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
       }
     }
   ]
