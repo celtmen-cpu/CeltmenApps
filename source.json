@@ -108,7 +108,7 @@
       "versions": [{
           "version": "2.1.1",
           "buildVersion": "1",
-          "date": "2026-09-30T19:07:11Z",
+          "date": "2026-09-30T17:07:11Z",
           "downloadURL": "https://github.com/celtmen-cpu/shimo/releases/download/2.1.1/Shimo.ipa",
           "size": 28120000,
           "minOSVersion": "15.1"
