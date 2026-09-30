@@ -101,10 +101,18 @@
       "name": "Shimo",
       "bundleIdentifier": "com.celtmen.shimo",
       "developerName": "Celtmen",
-      "localizedDescription": "",
+      "tintColor": "#B3B2AF",
+      "localizedDescription": "An app for Shimo",
       "iconURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Shimo/logo.png?raw=true",
       "category": "entertainment",
-      "versions": [],
+      "versions": [{
+          "version": "2.1.1",
+          "buildVersion": "1",
+          "date": "2026-09-30T19:07:11Z",
+          "downloadURL": "https://github.com/celtmen-cpu/shimo/releases/download/2.1.1/Shimo.ipa",
+          "size": 28120000,
+          "minOSVersion": "15.1"
+        }],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
