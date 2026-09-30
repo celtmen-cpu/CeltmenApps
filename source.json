@@ -105,6 +105,12 @@
       "localizedDescription": "An app for Shimo",
       "iconURL": "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Shimo/logo.png?raw=true",
       "category": "entertainment",
+      "screenshots": [
+        "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Shimo/IMG_2312.jpeg?raw=true",
+        "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Shimo/IMG_2309.jpeg?raw=true",
+        "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Shimo/IMG_2311.jpeg?raw=true",
+        "https://github.com/celtmen-cpu/CeltmenApps/blob/main/assets/source/Shimo/IMG_2310.jpeg?raw=true"
+      ],
       "versions": [{
           "version": "1.0.0",
           "buildVersion": "1.0.0",
