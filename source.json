@@ -114,7 +114,9 @@
           "minOSVersion": "15.1"
         }],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "com.apple.security.get-task-allow"
+        ],
         "privacy": {}
       }
     }
