@@ -6,7 +6,7 @@ window.APPS_DATA = [
     developer: "Celtmen",
     category: "games",
     icon: "assets/optimized/NightRush/logoNightRush.png",
-    link: "NightRush/",
+    link: "download.html?app=night-rush",
     version: "0.31"
   },
   {
@@ -15,7 +15,7 @@ window.APPS_DATA = [
     developer: "Celtmen",
     category: "entertainment",
     icon: "Sentinal-app/logo.JPG",
-    link: "https://github.com/celtmen-cpu/CeltmenApps/releases/download/Sentinal-app/STN-app.ipa",
+    link: "download.html?app=sentinal",
     version: "1"
   },
   {
@@ -24,7 +24,7 @@ window.APPS_DATA = [
     developer: "Alvin",
     category: "entertainment",
     icon: "assets/optimized/logoCeltmen.png",
-    link: "https://github.com/celtmen-cpu/CeltmenApps/releases/download/1.1.0/havokAlvin.ipa",
+    link: "download.html?app=havok",
     version: "1.1.0"
   },
   {
@@ -33,7 +33,7 @@ window.APPS_DATA = [
     developer: "Celtmen",
     category: "entertainment",
     icon: "assets/source/Shimo/logo.png",
-    link: "https://github.com/celtmen-cpu/shimo/releases/download/2.1.1/Shimo.ipa",
+    link: "download.html?app=shimo",
     version: "1.0.0"
   }
 ];

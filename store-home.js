@@ -66,15 +66,20 @@
     if (!d || !d.apps || !d.apps.length) return;
     APPS = d.apps.map(function (a) {
       var v = (a.versions && a.versions[0]) || {};
-      var link = v.downloadURL || "#";
-      if (/nighrush/i.test(a.bundleIdentifier || "")) link = "NightRush/";
+      /* Redirige vers la page de telechargement de l'app, jamais vers l'ipa */
+      var bid = (a.bundleIdentifier || "").toLowerCase();
+      var id = "shimo";
+      if (bid.indexOf("nighrush") !== -1) id = "night-rush";
+      else if (bid.indexOf("sentinal") !== -1) id = "sentinal";
+      else if (bid.indexOf("havok") !== -1) id = "havok";
+      else if (bid.indexOf("shimo") !== -1) id = "shimo";
       return {
         name: a.name,
         subtitle: a.subtitle || a.localizedDescription || "",
         developer: a.developerName || "Celtmen",
         category: a.category || "entertainment",
         icon: a.iconURL,
-        link: link,
+        link: "download.html?app=" + id,
         version: v.version || ""
       };
     });
