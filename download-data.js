@@ -40,7 +40,7 @@ window.DOWNLOAD_APPS = {
     name: "Atmos",
     note: "Choisissez votre plateforme pour installer Atmos gratuitement.",
     version: "Version 2",
-    logo: "assets/optimized/logoCeltmen.png",
+    logo: "assets/source/altmos/icon.png",
     links: {
       android: "https://github.com/celtmen-cpu/CeltmenApps/releases/download/Atmos/Atmos-android.apk",
       ios: "https://github.com/celtmen-cpu/CeltmenApps/releases/download/Atmos/Atmos-ios.mobileconfig",

@@ -13,7 +13,7 @@ window.APPS_DATA = [
     name: "Sentinal",
     subtitle: "L'app de l'equipe esport Sentinal - suivez les news",
     developer: "Celtmen",
-    category: "entertainment",
+    category: "apps",
     icon: "Sentinal-app/logo.JPG",
     link: "download.html?app=sentinal",
     version: "1"
@@ -22,7 +22,7 @@ window.APPS_DATA = [
     name: "HavoK App",
     subtitle: "App fan-made pour la Team HavoK (non officielle)",
     developer: "Alvin",
-    category: "entertainment",
+    category: "apps",
     icon: "assets/optimized/logoCeltmen.png",
     link: "download.html?app=havok",
     version: "1.1.0"
@@ -31,8 +31,8 @@ window.APPS_DATA = [
     name: "Atmos",
     subtitle: "An app for the weather made by claude",
     developer: "Celtmen",
-    category: "weather",
-    icon: "assets/optimized/logoCeltmen.png",
+    category: "apps",
+    icon: "assets/source/altmos/icon.png",
     link: "download.html?app=atmos",
     version: "2"
   },
@@ -40,7 +40,7 @@ window.APPS_DATA = [
     name: "Shimo",
     subtitle: "Une app pour Shimo",
     developer: "Celtmen",
-    category: "entertainment",
+    category: "apps",
     icon: "assets/source/Shimo/logo.png",
     link: "download.html?app=shimo",
     version: "1.0.0"

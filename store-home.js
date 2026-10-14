@@ -6,7 +6,7 @@
   var box = document.getElementById("apps");
   var input = document.getElementById("search");
   var count = document.getElementById("count");
-  var labels = { games: "Jeux", entertainment: "Divertissement" };
+  var labels = { games: "Jeux", apps: "Apps", entertainment: "Divertissement" };
   function label(c) { return labels[c] || c; }
 
   function render() {
