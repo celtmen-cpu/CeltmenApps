@@ -58,34 +58,9 @@
     render();
   });
 
-  // Enrichit depuis source.json si dispo (donnees a jour)
-  fetch("source.json", { cache: "no-store" }).then(function (r) {
-    if (!r.ok) throw 0;
-    return r.json();
-  }).then(function (d) {
-    if (!d || !d.apps || !d.apps.length) return;
-    APPS = d.apps.map(function (a) {
-      var v = (a.versions && a.versions[0]) || {};
-      /* Redirige vers la page de telechargement de l'app, jamais vers l'ipa */
-      var bid = (a.bundleIdentifier || "").toLowerCase();
-      var id = "shimo";
-      if (bid.indexOf("nighrush") !== -1) id = "night-rush";
-      else if (bid.indexOf("sentinal") !== -1) id = "sentinal";
-      else if (bid.indexOf("havok") !== -1) id = "havok";
-      else if (bid.indexOf("shimo") !== -1) id = "shimo";
-      return {
-        name: a.name,
-        subtitle: a.subtitle || a.localizedDescription || "",
-        developer: a.developerName || "Celtmen",
-        category: a.category || "entertainment",
-        icon: a.iconURL,
-        link: "download.html?app=" + id,
-        version: v.version || ""
-      };
-    });
-    window.APPS_DATA = APPS;
-    render();
-  }).catch(function () {});
+  /* Note : on utilise apps-data.js comme source de verite.
+     On ne recharge plus source.json ici car il ecrasait les liens
+     vers download.html par des liens directs .ipa (telechargement immediat). */
 
   try {
     var q0 = new URLSearchParams(location.search).get("q");

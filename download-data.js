@@ -36,6 +36,18 @@ window.DOWNLOAD_APPS = {
       mac: ""
     }
   },
+  "atmos": {
+    name: "Atmos",
+    note: "Choisissez votre plateforme pour installer Atmos gratuitement.",
+    version: "Version 1.1.0",
+    logo: "assets/optimized/logoCeltmen.png",
+    links: {
+      android: "",
+      ios: "",
+      windows: "",
+      mac: ""
+    }
+  },
   "shimo": {
     name: "Shimo",
     note: "Choisissez votre plateforme pour installer Shimo gratuitement.",

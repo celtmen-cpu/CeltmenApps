@@ -28,6 +28,15 @@ window.APPS_DATA = [
     version: "1.1.0"
   },
   {
+    name: "Atmos",
+    subtitle: "An app for the weather made by claude",
+    developer: "Celtmen",
+    category: "weather",
+    icon: "assets/optimized/logoCeltmen.png",
+    link: "download.html?app=atmos",
+    version: "1.1.0"
+  },
+  {
     name: "Shimo",
     subtitle: "Une app pour Shimo",
     developer: "Celtmen",
