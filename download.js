@@ -34,4 +34,10 @@
   wire("btnIos", app.links.ios, "iOS");
   wire("btnWin", app.links.windows, "Windows");
   wire("btnMac", app.links.mac, "Mac");
+  /* Linux : bouton visible seulement si l'app a un lien linux (ex: Atmos) */
+  var btnLinux = document.getElementById("btnLinux");
+  if (app.links.linux) {
+    btnLinux.style.display = "";
+    wire("btnLinux", app.links.linux, "Linux");
+  }
 })();

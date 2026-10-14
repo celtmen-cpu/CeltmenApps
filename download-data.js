@@ -39,13 +39,14 @@ window.DOWNLOAD_APPS = {
   "atmos": {
     name: "Atmos",
     note: "Choisissez votre plateforme pour installer Atmos gratuitement.",
-    version: "Version 1.1.0",
+    version: "Version 2",
     logo: "assets/optimized/logoCeltmen.png",
     links: {
-      android: "",
-      ios: "",
-      windows: "",
-      mac: ""
+      android: "https://github.com/celtmen-cpu/CeltmenApps/releases/download/Atmos/Atmos-android.apk",
+      ios: "https://github.com/celtmen-cpu/CeltmenApps/releases/download/Atmos/Atmos-ios.mobileconfig",
+      windows: "https://github.com/celtmen-cpu/CeltmenApps/releases/download/Atmos/Atmos-windows.zip",
+      mac: "https://github.com/celtmen-cpu/CeltmenApps/releases/download/Atmos/Atmos-macos.zip",
+      linux: "https://github.com/celtmen-cpu/CeltmenApps/releases/download/Atmos/Atmos-linux.tar.gz"
     }
   },
   "shimo": {

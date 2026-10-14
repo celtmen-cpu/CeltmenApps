@@ -34,7 +34,7 @@ window.APPS_DATA = [
     category: "weather",
     icon: "assets/optimized/logoCeltmen.png",
     link: "download.html?app=atmos",
-    version: "1.1.0"
+    version: "2"
   },
   {
     name: "Shimo",
