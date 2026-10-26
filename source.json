@@ -66,38 +66,6 @@
       }
     },
     {
-      "name": "HavoK App",
-      "bundleIdentifier": "com.havokapp.mobile",
-      "developerName": "Alvin",
-      "subtitle": "A fan made app for Team HavoK",
-      "localizedDescription": "A fan made app for Team HavoK. It is not the official app ⚠️",
-      "iconURL": "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/Icon-havok-default.png",
-      "tintColor": "#B3B2AF",
-      "category": "entertainment",
-      "screenshots": [
-        "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1087.jpg",
-        "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1088.jpg",
-        "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1089.jpg",
-        "https://celtmen-cpu.github.io/CeltmenApps/assets/optimized/HavoKapp/IMG_1090.jpg"
-      ],
-      "versions": [
-        {
-          "version": "1.1.0",
-          "buildVersion": "5",
-          "date": "2026-07-09T12:07:11Z",
-          "downloadURL": "https://github.com/celtmen-cpu/CeltmenApps/releases/download/1.1.0/havokAlvin.ipa",
-          "size": 14277115,
-          "minOSVersion": "15.1"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSFaceIDUsageDescription": "Allow HavokApp to access your Face ID biometric data."
-        }
-      }
-    },
-    {
       "name": "Shimo",
       "bundleIdentifier": "com.celtmen.shimo",
       "developerName": "Celtmen",
