@@ -19,15 +19,6 @@ window.APPS_DATA = [
     version: "1"
   },
   {
-    name: "HavoK App",
-    subtitle: "App fan-made pour la Team HavoK (non officielle)",
-    developer: "Alvin",
-    category: "apps",
-    icon: "assets/optimized/logoCeltmen.png",
-    link: "download.html?app=havok",
-    version: "1.1.0"
-  },
-  {
     name: "Atmos",
     subtitle: "An app for the weather made by claude",
     developer: "Celtmen",
@@ -43,6 +34,6 @@ window.APPS_DATA = [
     category: "apps",
     icon: "assets/source/Shimo/logo.png",
     link: "download.html?app=shimo",
-    version: "1.0.0"
+    version: "2.2.0"
   }
 ];
