@@ -8,9 +8,9 @@
     if (q && data[q]) id = q;
   } catch (e) {}
   var app = data[id] || data["night-rush"];
-  document.title = "Telechargement " + app.name;
-  document.getElementById("metaTitle").textContent = "Telechargement " + app.name;
-  document.getElementById("appTitle").textContent = "Telechargement " + app.name;
+  document.title = "Téléchargement " + app.name;
+  document.getElementById("metaTitle").textContent = "Téléchargement " + app.name;
+  document.getElementById("appTitle").textContent = "Téléchargement " + app.name;
   document.getElementById("appNote").textContent = app.note;
   document.getElementById("appVer").textContent = app.version;
   var logo = document.getElementById("appLogo");
@@ -24,9 +24,9 @@
       b.addEventListener("click", function () { window.location.href = url; });
     } else {
       b.classList.add("todo");
-      b.title = "Bientot disponible";
+      b.title = "Bientôt disponible";
       b.addEventListener("click", function () {
-        alert("Lien " + label + " bientot disponible pour " + app.name + ".");
+        alert("Lien " + label + " bientôt disponible pour " + app.name + ".");
       });
     }
   }
