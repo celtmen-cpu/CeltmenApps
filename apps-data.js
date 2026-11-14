@@ -20,7 +20,7 @@ window.APPS_DATA = [
   },
   {
     name: "Atmos",
-    subtitle: "An app for the weather made by claude",
+    subtitle: "Une app météo conçue par Claude",
     developer: "Celtmen",
     category: "apps",
     icon: "assets/source/altmos/icon.png",
