@@ -6,17 +6,8 @@ window.APPS_DATA = [
     developer: "Celtmen",
     category: "games",
     icon: "assets/optimized/NightRush/logoNightRush.png",
-    link: "download.html?app=night-rush",
+    link: "download/night-rush/",
     version: "0.31"
-  },
-  {
-    name: "Sentinal",
-    subtitle: "L'app de l'equipe esport Sentinal - suivez les news",
-    developer: "Celtmen",
-    category: "apps",
-    icon: "Sentinal-app/logo.JPG",
-    link: "download.html?app=sentinal",
-    version: "1"
   },
   {
     name: "Atmos",
@@ -24,16 +15,7 @@ window.APPS_DATA = [
     developer: "Celtmen",
     category: "apps",
     icon: "assets/source/altmos/icon.png",
-    link: "download.html?app=atmos",
+    link: "download/atmos/",
     version: "2"
-  },
-  {
-    name: "Shimo",
-    subtitle: "Une app pour Shimo",
-    developer: "Celtmen",
-    category: "apps",
-    icon: "assets/source/Shimo/logo.png",
-    link: "download.html?app=shimo",
-    version: "2.2.0"
   }
 ];
